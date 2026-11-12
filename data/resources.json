@@ -628,5 +628,86 @@
     "phone": "732-681-4413",
     "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
     "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-04",
+    "name": "Saint James Eatontown Medical Equipment Ministry",
+    "category": "Medical Equipment & Health",
+    "location": "Eatontown, NJ",
+    "phone": "Contact via Parish",
+    "website": "https://www.stjames-parish.com",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-05",
+    "name": "Parker Family Health Center",
+    "category": "Medical Equipment & Health",
+    "location": "Red Bank, NJ",
+    "phone": "732-212-0777",
+    "website": "https://parkerfamilyhealth.org",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-06",
+    "name": "NJ Hospital Care Payment Assistance (Charity Care)",
+    "category": "Basic Needs / Assistance",
+    "location": "Statewide / Monmouth County, NJ",
+    "phone": "Contact Local Hospital",
+    "website": "https://www.nj.gov/health/",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-07",
+    "name": "NJ FamilyCare Low-Cost Health Insurance",
+    "category": "Basic Needs / Assistance",
+    "location": "Statewide, NJ",
+    "phone": "1-800-701-0710",
+    "website": "https://www.njfamilycare.org",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-08",
+    "name": "Catalyte & Apprenti Tech Apprenticeships",
+    "category": "Employment / Training",
+    "location": "Remote / Regional NJ",
+    "phone": "Online Program",
+    "website": "https://www.catalyte.io",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-09",
+    "name": "ITDRC (Information Technology Disaster Resource Center)",
+    "category": "Employment / Training",
+    "location": "Remote / National Deployment",
+    "phone": "Nonprofit Support",
+    "website": "https://itdrc.org",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-10",
+    "name": "Plato's Closet",
+    "category": "Supplemental Income & Resale",
+    "location": "Middletown, NJ",
+    "phone": "Local Store",
+    "website": "https://www.platoscloset.com",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-11",
+    "name": "Once Upon A Child",
+    "category": "Supplemental Income & Resale",
+    "location": "Howell, NJ",
+    "phone": "Local Store",
+    "website": "https://www.onceuponachild.com",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-12",
+    "name": "Flexible Gig Work Platforms (Reflex, Instacart, DoorDash)",
+    "category": "Employment / Training",
+    "location": "Monmouth County, NJ",
+    "phone": "App-Based",
+    "website": "https://www.reflex.com",
+    "last_verified": "2026-11-12"
   }
 ]
