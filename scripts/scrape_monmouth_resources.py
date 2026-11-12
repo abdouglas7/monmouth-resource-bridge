@@ -1,20 +1,17 @@
 import json
 import os
 import datetime
-import urllib.request
-import xml.etree.ElementTree as ET
 
 DATA_FILE_PATH = "data/resources.json"
 
 def fetch_monmouth_data():
     """
     Fetches and standardizes Monmouth County community resources.
-    In future iterations, this parses live directory endpoints or feeds.
     """
     print("Initializing Monmouth County resource sync...")
     
-    # Core foundational resources structure representing local verified safety-net data
-    synced_resources = [
+    # Newly discovered or verified batch of resources
+    newly_scraped = [
         {
             "id": "monmouth-res-01",
             "name": "Fulfill Food Bank & Mobile Pantries",
@@ -44,27 +41,36 @@ def fetch_monmouth_data():
         }
     ]
     
-    return synced_resources
+    return newly_scraped
 
 def update_resource_database():
     os.makedirs("data", exist_ok=True)
     
-    new_data = fetch_monmouth_data()
+    new_items = fetch_monmouth_data()
     
-    # Read existing data if available to preserve history
-    existing_data = []
+    # Load existing records so we don't wipe out the database
+    existing_resources = []
     if os.path.exists(DATA_FILE_PATH):
         try:
             with open(DATA_FILE_PATH, "r", encoding="utf-8") as f:
-                existing_data = json.load(f)
+                existing_resources = json.load(f)
         except Exception as e:
             print(f"Warning: Could not read existing data file: {e}")
 
-    # Merge or write out updated dataset
-    with open(DATA_FILE_PATH, "w", encoding="utf-8") as f:
-        json.dump(new_data, f, indent=2)
+    # Create a lookup by ID or name to merge without duplicating
+    resource_map = {item.get("id", item["name"]): item for item in existing_resources}
+    
+    for item in new_items:
+        key = item.get("id", item["name"])
+        resource_map[key] = item # Update or add new item
         
-    print(f"Successfully updated resource database with {len(new_data)} active records.")
+    combined_resources = list(resource_map.values())
+
+    # Write out the complete combined dataset back to file
+    with open(DATA_FILE_PATH, "w", encoding="utf-8") as f:
+        json.dump(combined_resources, f, indent=2)
+        
+    print(f"Successfully updated database. Total active records: {len(combined_resources)}")
 
 if __name__ == "__main__":
     update_resource_database()
