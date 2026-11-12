@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Run Resource Scraper Script
-        run: python scripts/scrape_monomial_resources.py
+        run: python scripts/scrape_monmouth_resources.py
 
       - name: Commit and push changes if data updated
         run: |
