@@ -1,0 +1,29 @@
+[
+  {
+    "id": "monmouth-res-01",
+    "name": "Fulfill Food Bank & Mobile Pantries",
+    "category": "Food Assistance",
+    "location": "Neptune / Monmouth County, NJ",
+    "phone": "732-918-2600",
+    "website": "https://fulfillnj.org",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-02",
+    "name": "Monmouth ResourceNet Directory",
+    "category": "Community Support",
+    "location": "Neptune, NJ",
+    "phone": "732-222-8008",
+    "website": "https://www.monmouthresourcenet.org",
+    "last_verified": "2026-11-12"
+  },
+  {
+    "id": "monmouth-res-03",
+    "name": "Affordable Housing Alliance",
+    "category": "Housing & Utilities",
+    "location": "Eatontown, NJ",
+    "phone": "732-389-2958",
+    "website": "https://housingall.org",
+    "last_verified": "2026-11-12"
+  }
+]
