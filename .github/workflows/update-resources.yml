@@ -1,0 +1,24 @@
+name: Auto-Update Community Resources
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Runs every Monday at 6:00 AM UTC
+  workflow_dispatch: # Lets you run it manually with one click anytime
+
+jobs:
+  run-updater:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Resource Script
+        run: |
+          echo "Checking for resource updates..."
+          # Placeholder for your scraper script execution
+          # python scripts/scrape_monmouth_resources.py
