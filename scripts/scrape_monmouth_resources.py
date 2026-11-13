@@ -278,6 +278,79 @@ def get_foundational_resources():
             "phone": "App-Based",
             "website": "https://www.reflex.com",
             "last_verified": str(datetime.date.today())
+        },
+        # Newly Integrated Additions (Healthcare, Utility, Support, Wellness)
+        {
+            "id": "monmouth-res-22",
+            "name": "Monmouth County Division on Aging / SHIP",
+            "category": "Healthcare Navigation & Benefits",
+            "location": "Freehold, NJ",
+            "phone": "732-431-7450",
+            "website": "https://monmouthadvs.com",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "monmouth-res-23",
+            "name": "GoodRx",
+            "category": "Healthcare Navigation & Benefits",
+            "location": "Online / Local Pharmacies",
+            "phone": "Online Tool",
+            "website": "https://www.goodrx.com",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "monmouth-res-24",
+            "name": "Universal Service Fund (USF) & Fresh Start",
+            "category": "Financial & Utility Assistance",
+            "location": "Statewide / Monmouth County, NJ",
+            "phone": "State Program",
+            "website": "https://www.nj.gov/bpu/",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "monmouth-res-25",
+            "name": "Low-Income Home Energy Assistance Program (LIHEAP)",
+            "category": "Financial & Utility Assistance",
+            "location": "Statewide / Monmouth County, NJ",
+            "phone": "State Program",
+            "website": "https://www.nj.gov/dca/",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "monmouth-res-26",
+            "name": "NJ SHARES",
+            "category": "Financial & Utility Assistance",
+            "location": "Statewide, NJ",
+            "phone": "1-866-657-4273",
+            "website": "https://njshares.org",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "monmouth-res-27",
+            "name": "NJ Comfort Partners",
+            "category": "Financial & Utility Assistance",
+            "location": "Statewide / Monmouth County, NJ",
+            "phone": "Utility Partner",
+            "website": "https://njcomfortpartners.org",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "monmouth-res-28",
+            "name": "NAMI Greater Monmouth County",
+            "category": "Mental Health & Support Groups",
+            "location": "Monmouth County, NJ",
+            "phone": "732-544-0980",
+            "website": "https://namigreatermonmouth.org",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "monmouth-res-29",
+            "name": "YMCA of the Jersey Shore – Financial Assistance",
+            "category": "Recreation, Health & Wellness",
+            "location": "Red Bank / Eatontown / Regional, NJ",
+            "phone": "732-741-2504",
+            "website": "https://ymcanj.org",
+            "last_verified": str(datetime.date.today())
         }
     ]
 
