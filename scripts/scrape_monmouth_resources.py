@@ -54,7 +54,7 @@ def fetch_live_directory_feeds():
                 parser = SimpleHTMLTableParser()
                 parser.feed(html_content)
                 
-                for idx, row in enumerate(parser.listings[1:], start=600):
+                for idx, row in enumerate(parser.listings[1:], start=800):
                     if len(row) >= 4:
                         name = row[0]
                         address = row[1]
@@ -64,7 +64,7 @@ def fetch_live_directory_feeds():
                         if name and len(name) > 2:
                             scraped_items.append({
                                 "id": f"auto-scraped-{idx}",
-                                "category": "Food Assistance & Emergency Relief",
+                                "category": "Basic Needs & Assistance",
                                 "name": name,
                                 "location": f"{address}, {city}, NJ",
                                 "description": "Community food pantry and emergency relief assistance program.",
@@ -82,12 +82,14 @@ def fetch_live_directory_feeds():
     return scraped_items
 
 def get_foundational_resources():
-    """Consolidated master list combining original directory, Batch 1, Batch 2, and Batch 3."""
+    """Consolidated master list organized strictly under the 7 streamlined categories with clean labels and zero duplicates."""
     return [
-        # --- FOUNDATIONAL DIRECTORY RECORDS ---
+        # ==========================================
+        # 1. BASIC NEEDS & ASSISTANCE
+        # ==========================================
         {
             "id": "monmouth-res-01",
-            "category": "Food Security & Basic Needs",
+            "category": "Basic Needs & Assistance",
             "name": "Fulfill Food Bank & Mobile Pantries",
             "location": "Neptune / Monmouth County, NJ",
             "description": "Provides emergency food distribution, mobile pantries, and nutritional support to individuals and families experiencing food insecurity.",
@@ -99,15 +101,15 @@ def get_foundational_resources():
             "last_verified": str(datetime.date.today())
         },
         {
-            "id": "monmouth-res-02",
-            "category": "Family & Support Services",
-            "name": "Monmouth ResourceNet Directory",
-            "location": "Neptune, NJ",
-            "description": "Connects residents with a comprehensive network of local family support services, basic needs assistance, and community programs.",
-            "website": "https://www.monmouthresourcenet.org",
-            "phone": "732-222-8008",
-            "email": "",
-            "cost_label": "Free directory",
+            "id": "monmouth-res-29",
+            "category": "Basic Needs & Assistance",
+            "name": "JBJ Soul Kitchen",
+            "location": "Red Bank, NJ",
+            "description": "A nonprofit community restaurant providing meals to individuals and families experiencing food insecurity. Guests can make a suggested donation or volunteer their time, and those unable to contribute are still welcome.",
+            "website": "https://jbjsoulkitchen.org/",
+            "phone": "732-842-0900",
+            "email": "info@jbjsoulkitchen.org",
+            "cost_label": "Free / Donation-based",
             "nj_access": "Yes",
             "last_verified": str(datetime.date.today())
         },
@@ -125,24 +127,41 @@ def get_foundational_resources():
             "last_verified": str(datetime.date.today())
         },
         {
-            "id": "monmouth-res-29",
-            "category": "Food Security & Basic Needs",
-            "name": "JBJ Soul Kitchen",
-            "location": "Red Bank, NJ",
-            "description": "A nonprofit community restaurant providing meals to individuals and families experiencing food insecurity. Guests can make a suggested donation or volunteer their time, and those unable to contribute are still welcome.",
-            "website": "https://jbjsoulkitchen.org/",
-            "phone": "732-842-0900",
-            "email": "info@jbjsoulkitchen.org",
-            "cost_label": "Free / Donation-based",
-            "nj_access": "Yes",
+            "id": "calico-cat-pantry",
+            "category": "Basic Needs & Assistance",
+            "name": "Calico Cat Food Pantry",
+            "location": "Monmouth County, NJ",
+            "description": "Calico Cat provides food pantry services and emergency assistance to individuals and families in its service area. Emergency Assistance Fund: Provides one-time financial assistance to help low-income households with utility bills, rent, or mortgage payments. Service areas include Aberdeen, Atlantic Highlands, Belford, Cliffwood, Hazlet, Highlands, Holmdel, Keansburg, Keyport, Leonardo, Lincroft, Matawan, Middletown, Port Monmouth, Red Bank, and Union Beach (Note: Eatontown is not included in this fund's service area). Auto Repair Assistance: In some cases, assistance with auto repairs may extend beyond the listed towns; applicants should complete an application to determine qualification (not guaranteed).",
+            "website": "",
+            "phone": "732-671-0550",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Specific Monmouth Communities",
             "last_verified": str(datetime.date.today())
         },
         {
+            "id": "allentown-food-pantry",
+            "category": "Basic Needs & Assistance",
+            "name": "Allentown Food Pantry",
+            "location": "20 High St. (Presbyterian Ch.), Allentown, NJ",
+            "description": "Community food pantry and emergency relief assistance program.",
+            "website": "",
+            "phone": "609-259-7289",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Yes",
+            "last_verified": str(datetime.date.today())
+        },
+
+        # ==========================================
+        # 2. EMPLOYMENT, EDUCATION & CAREER DEVELOPMENT
+        # ==========================================
+        {
             "id": "monmouth-res-30",
-            "category": "Education, Technology & Community Resources",
+            "category": "Employment, Education & Career Development",
             "name": "Red Bank Public Library",
             "location": "Red Bank, NJ",
-            "description": "A public library offering books, computer and internet access, educational programming, and digital learning resources. The library offers the first 10 copies or printed pages free, even for individuals without a library card. Red Bank residents who obtain a library card can also access free online courses through the library’s Coursera partnership (individuals under 13 require parent or guardian signature to register for a library card).",
+            "description": "A public library offering books, computer and internet access, educational programming, and digital learning resources. Red Bank residents who obtain a library card can access free online courses through its Coursera partnership.",
             "website": "https://www.redbanklibrary.org/",
             "phone": "732-842-0690",
             "email": "redbanklibrary@gmail.com",
@@ -150,137 +169,177 @@ def get_foundational_resources():
             "nj_access": "Yes",
             "last_verified": str(datetime.date.today())
         },
-
-        # --- BATCH 1: JOB SEARCH ENGINES & CAREER RESOURCES ---
         {
-            "id": "batch1-job-01", "category": "General Job Search", "name": "LinkedIn Jobs", "location": "Online / National",
+            "id": "batch1-job-01", "category": "Employment, Education & Career Development", "name": "LinkedIn Jobs", "location": "Online / National",
             "description": "Search employment opportunities, connect with recruiters, and build professional relationships.", "website": "https://www.linkedin.com/jobs/",
-            "phone": "", "email": "", "cost_label": "Free; optional paid Premium", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free / Optional Premium", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch1-job-02", "category": "General Job Search", "name": "Indeed", "location": "Online / National",
+            "id": "batch1-job-02", "category": "Employment, Education & Career Development", "name": "Indeed", "location": "Online / National",
             "description": "Search jobs across industries, including technology, healthcare, administration, and customer service.", "website": "https://www.indeed.com/",
-            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch1-job-03", "category": "General Job Search", "name": "Glassdoor", "location": "Online / National",
+            "id": "batch1-job-03", "category": "Employment, Education & Career Development", "name": "Glassdoor", "location": "Online / National",
             "description": "Search job openings and explore employer reviews, salary information, and interview insights.", "website": "https://www.glassdoor.com/",
-            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch1-job-10", "category": "Technology & Startup Jobs", "name": "Dice", "location": "Online / National",
+            "id": "batch1-job-10", "category": "Employment, Education & Career Development", "name": "Dice", "location": "Online / National",
             "description": "Technology-focused job board featuring IT support, software development, cybersecurity, data, cloud, and infrastructure careers.", "website": "https://www.dice.com/",
-            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch1-job-15", "category": "Remote & Flexible Employment", "name": "We Work Remotely", "location": "Online / Remote",
+            "id": "batch1-job-15", "category": "Employment, Education & Career Development", "name": "We Work Remotely", "location": "Online / Remote",
             "description": "Search remote opportunities in programming, customer support, marketing, design, and other professional fields.", "website": "https://weworkremotely.com/",
-            "phone": "", "email": "", "cost_label": "Free job search", "nj_access": "Yes; listing restrictions apply", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch1-job-17", "category": "Remote & Flexible Employment", "name": "FlexJobs", "location": "Online / Remote",
+            "id": "batch1-job-17", "category": "Employment, Education & Career Development", "name": "FlexJobs", "location": "Online / Remote",
             "description": "Explore screened remote, hybrid, flexible, freelance, and part-time employment opportunities.", "website": "https://www.flexjobs.com/",
-            "phone": "", "email": "", "cost_label": "Paid service", "nj_access": "Yes; listing restrictions apply", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Paid service", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch1-job-26", "category": "Government & Public Sector Employment", "name": "USAJOBS", "location": "Online / Federal",
+            "id": "batch1-job-26", "category": "Employment, Education & Career Development", "name": "USAJOBS", "location": "Online / Federal",
             "description": "Official federal government employment website featuring federal jobs in technology, administration, healthcare, and other fields.", "website": "https://www.usajobs.gov/",
-            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch1-job-28", "category": "Government & Public Sector Employment", "name": "New Jersey Department of Labor — Career Services", "location": "Trenton / Statewide, NJ",
+            "id": "batch1-job-28", "category": "Employment, Education & Career Development", "name": "New Jersey Department of Labor — Career Services", "location": "Trenton / Statewide, NJ",
             "description": "Access New Jersey employment services, job-search assistance, career guidance, and workforce training resources.", "website": "https://www.nj.gov/labor/career-services/",
-            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Yes; NJ residents", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch1-job-31", "category": "Freelance & Independent Work", "name": "Upwork", "location": "Online / Freelance",
+            "id": "batch1-job-31", "category": "Employment, Education & Career Development", "name": "Upwork", "location": "Online / Freelance",
             "description": "Freelance marketplace connecting professionals with businesses for technology, writing, design, administrative, and other projects.", "website": "https://www.upwork.com/",
-            "phone": "", "email": "", "cost_label": "Free basic account; optional paid membership and freelancer fees", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free / Membership fees apply", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
-
-        # --- BATCH 2: TECH COMMUNITIES & DIRECT EMPLOYERS ---
         {
-            "id": "batch2-comm-01", "category": "Technology Communities & Professional Networks", "name": "Tech Ladies", "location": "Online / Professional Community",
+            "id": "batch2-comm-01", "category": "Employment, Education & Career Development", "name": "Tech Ladies", "location": "Online / Professional Community",
             "description": "Professional community connecting women in technology with career resources, networking, and employment opportunities.", "website": "https://www.hiretechladies.com/",
-            "phone": "", "email": "", "cost_label": "Free and optional paid membership offerings; verify current terms", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free / Optional paid membership", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch2-comm-02", "category": "Technology Communities & Professional Networks", "name": "Black Tech Pipeline", "location": "Online / Professional Community",
+            "id": "batch2-comm-02", "category": "Employment, Education & Career Development", "name": "Black Tech Pipeline", "location": "Online / Professional Community",
             "description": "Career and professional resource connecting Black technology professionals with opportunities, employers, and industry networks.", "website": "https://blacktechpipeline.com/",
-            "phone": "", "email": "", "cost_label": "Free for job seekers; verify current terms", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch2-comm-05", "category": "Technology Communities & Professional Networks", "name": "GitHub", "location": "Online / Developer Platform",
+            "id": "batch2-comm-05", "category": "Employment, Education & Career Development", "name": "GitHub", "location": "Online / Developer Platform",
             "description": "Developer platform for hosting code, building portfolios, collaborating on projects, and connecting with the software development community.", "website": "https://github.com/",
-            "phone": "", "email": "", "cost_label": "Free basic account; optional paid plans", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free / Optional paid plans", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch2-emp-01", "category": "Direct Employer Career Websites", "name": "Amazon Jobs", "location": "Online / Corporate Portal",
+            "id": "batch2-emp-01", "category": "Employment, Education & Career Development", "name": "Amazon Jobs", "location": "Online / Corporate Portal",
             "description": "Search corporate, technology, operations, and other employment opportunities at Amazon.", "website": "https://www.amazon.jobs/",
-            "phone": "", "email": "", "cost_label": "Free to apply", "nj_access": "Yes; position requirements apply", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch2-emp-02", "category": "Direct Employer Career Websites", "name": "Microsoft Careers", "location": "Online / Corporate Portal",
+            "id": "batch2-emp-02", "category": "Employment, Education & Career Development", "name": "Microsoft Careers", "location": "Online / Corporate Portal",
             "description": "Explore employment opportunities in software, cloud, cybersecurity, business, and operations.", "website": "https://careers.microsoft.com/",
-            "phone": "", "email": "", "cost_label": "Free to apply", "nj_access": "Yes; position requirements apply", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
 
-        # --- BATCH 3: MENTAL HEALTH, WELLNESS & CRISIS SUPPORT ---
+        # ==========================================
+        # 3. FAMILY & SUPPORT SERVICES
+        # ==========================================
         {
-            "id": "batch3-mh-01", "category": "Affordable Therapy & Therapist Search", "name": "Open Path Psychotherapy Collective", "location": "Online / National",
+            "id": "monmouth-res-02",
+            "category": "Family & Support Services",
+            "name": "Monmouth ResourceNet Directory",
+            "location": "Neptune, NJ",
+            "description": "Connects residents with a comprehensive network of local family support services, basic needs assistance, and community programs.",
+            "website": "https://www.monmouthresourcenet.org",
+            "phone": "732-222-8008",
+            "email": "",
+            "cost_label": "Free directory",
+            "nj_access": "Monmouth County",
+            "last_verified": str(datetime.date.today())
+        },
+
+        # ==========================================
+        # 4. HEALTHCARE & MEDICAL RESOURCES
+        # ==========================================
+        {
+            "id": "monmouth-res-pharmacy-01",
+            "category": "Healthcare & Medical Resources",
+            "name": "Ritesh Shah Charitable Pharmacy",
+            "location": "Red Bank, NJ",
+            "description": "New Jersey's first charitable pharmacy, providing free prescription medications to uninsured and underserved individuals to reduce health disparities.",
+            "website": "https://rscprx.org/",
+            "phone": "732-784-8999",
+            "email": "pharmacist@rscprx.org",
+            "cost_label": "Free",
+            "nj_access": "Statewide",
+            "last_verified": str(datetime.date.today())
+        },
+
+        # ==========================================
+        # 5. MENTAL HEALTH & EMOTIONAL SUPPORT
+        # ==========================================
+        {
+            "id": "batch3-mh-01", "category": "Mental Health & Emotional Support", "name": "Open Path Psychotherapy Collective", "location": "Online / National",
             "description": "Connects eligible individuals and families with affordable in-person and online therapy through participating mental health professionals.", "website": "https://openpathcollective.org/",
-            "phone": "", "email": "", "cost_label": "Low-cost options", "nj_access": "Yes; participating providers", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Low-cost options", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-mh-02", "category": "Affordable Therapy & Therapist Search", "name": "Psychology Today — Therapist Finder", "location": "Online / National",
+            "id": "batch3-mh-02", "category": "Mental Health & Emotional Support", "name": "Psychology Today — Therapist Finder", "location": "Online / National",
             "description": "Search for therapists, psychologists, psychiatrists, and other mental health professionals by location, specialty, insurance, and treatment approach.", "website": "https://www.psychologytoday.com/us/therapists",
-            "phone": "", "email": "", "cost_label": "Free directory", "nj_access": "Yes; search NJ providers", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free directory", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-mh-03", "category": "Affordable Therapy & Therapist Search", "name": "Headway", "location": "Online / New Jersey",
+            "id": "batch3-mh-03", "category": "Mental Health & Emotional Support", "name": "Headway", "location": "Online / New Jersey",
             "description": "Find therapists and mental health professionals who accept participating health insurance plans.", "website": "https://headway.co/therapists/new-jersey",
-            "phone": "", "email": "", "cost_label": "Free directory; therapy costs depend on insurance", "nj_access": "Yes", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free directory", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-mh-08", "category": "Culturally Affirming Mental Health", "name": "Therapy for Black Girls", "location": "Online / National",
+            "id": "batch3-mh-08", "category": "Mental Health & Emotional Support", "name": "Therapy for Black Girls", "location": "Online / National",
             "description": "Therapist-search resource centered on the mental wellness of Black women and girls. Helps visitors find culturally responsive mental health professionals.", "website": "https://providers.therapyforblackgirls.com/",
-            "phone": "", "email": "", "cost_label": "Free directory; therapist fees vary", "nj_access": "Yes; check provider licensure", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free directory", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-mh-11", "category": "Culturally Affirming Mental Health", "name": "Therapy for Black Men", "location": "Online / National",
+            "id": "batch3-mh-11", "category": "Mental Health & Emotional Support", "name": "Therapy for Black Men", "location": "Online / National",
             "description": "Therapist directory and mental health resource designed to help Black men find culturally responsive mental health support.", "website": "https://therapyforblackmen.org/therapists",
-            "phone": "", "email": "", "cost_label": "Free directory", "nj_access": "Yes; check provider licensure", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free directory", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-mh-19", "category": "Therapy Financial Assistance", "name": "The Loveland Foundation — Therapy Fund", "location": "Online / National",
+            "id": "batch3-mh-19", "category": "Mental Health & Emotional Support", "name": "The Loveland Foundation — Therapy Fund", "location": "Online / National",
             "description": "Provides therapy financial assistance to eligible Black women and nonbinary individuals in the United States.", "website": "https://thelovelandfoundation.org/therapy-fund/",
-            "phone": "", "email": "", "cost_label": "Low-cost options", "nj_access": "Yes; eligibility and application windows apply", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Low-cost options", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-mh-23", "category": "New Jersey & Monmouth Resources", "name": "NJ MentalHealthCares", "location": "Statewide, NJ",
+            "id": "batch3-mh-23", "category": "Mental Health & Emotional Support", "name": "NJ MentalHealthCares", "location": "Statewide, NJ",
             "description": "New Jersey’s behavioral health information and referral service offering free, confidential emotional support, information, and referrals.", "website": "https://www.mhanj.org/new-jersey-mental-health-cares/",
-            "phone": "866-202-4357", "email": "", "cost_label": "Free", "nj_access": "Yes; statewide", "last_verified": str(datetime.date.today())
+            "phone": "866-202-4357", "email": "", "cost_label": "Free", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-crisis-01", "category": "Mental Health Crisis & Immediate Support", "name": "988 Suicide & Crisis Lifeline", "location": "Nationwide",
-            "description": "Free, confidential, 24/7 support for people experiencing emotional distress, suicidal thoughts, or mental health and substance-use crises. Call or text 988.", "website": "https://988lifeline.org/",
-            "phone": "988", "email": "", "cost_label": "Free", "nj_access": "Yes; nationwide", "last_verified": str(datetime.date.today())
+            "id": "batch3-crisis-01", "category": "Mental Health & Emotional Support", "name": "988 Suicide & Crisis Lifeline", "location": "Nationwide",
+            "description": "Free, confidential, 24/7 support for people experiencing emotional distress, suicidal thoughts, or mental health and substance-use crises. Call or text 988. For immediate life-threatening physical emergencies, call 911.",
+            "website": "https://988lifeline.org/",
+            "phone": "988", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-crisis-02", "category": "Mental Health Crisis & Immediate Support", "name": "ReachNJ", "location": "Statewide, NJ",
+            "id": "batch3-crisis-02", "category": "Mental Health & Emotional Support", "name": "ReachNJ", "location": "Statewide, NJ",
             "description": "New Jersey’s 24/7 substance-use assistance line connecting people and families with addiction treatment and support services.", "website": "https://www.nj.gov/humanservices/dmhas/",
-            "phone": "1-844-732-2465", "email": "", "cost_label": "Free referral service", "nj_access": "Yes; statewide", "last_verified": str(datetime.date.today())
+            "phone": "1-844-732-2465", "email": "", "cost_label": "Free", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch3-crisis-03", "category": "Mental Health Crisis & Immediate Support", "name": "NJ 211", "location": "Statewide, NJ",
+            "id": "batch3-crisis-03", "category": "Mental Health & Emotional Support", "name": "NJ 211", "location": "Statewide, NJ",
             "description": "Statewide information and referral service connecting residents with housing, food, healthcare, transportation, and other social services.", "website": "https://www.nj211.org/",
-            "phone": "211", "email": "", "cost_label": "Free", "nj_access": "Yes; statewide", "last_verified": str(datetime.date.today())
+            "phone": "211", "email": "", "cost_label": "Free", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
         },
 
-        # --- GENERAL DIRECTORY DISCLAIMER ---
+        # ==========================================
+        # 6. HEALTH, RECREATION & WELLNESS
+        # ==========================================
+        # (Placeholder for community wellness programs)
+
+        # ==========================================
+        # 7. NEW JERSEY & LOCAL COMMUNITY RESOURCES
+        # ==========================================
         {
             "id": "monmouth-res-disclaimer",
-            "category": "Notice",
+            "category": "New Jersey & Local Community Resources",
             "name": "General Directory Disclaimer",
             "location": "Monmouth County, NJ",
             "description": "Please conduct your own research and contact organizations directly or visit their official websites to confirm program details, eligibility requirements, and current services.",
@@ -288,7 +347,7 @@ def get_foundational_resources():
             "phone": "",
             "email": "",
             "cost_label": "Free",
-            "nj_access": "Yes",
+            "nj_access": "Statewide",
             "last_verified": str(datetime.date.today())
         }
     ]
