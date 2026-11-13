@@ -54,7 +54,7 @@ def fetch_live_directory_feeds():
                 parser = SimpleHTMLTableParser()
                 parser.feed(html_content)
                 
-                for idx, row in enumerate(parser.listings[1:], start=800):
+                for idx, row in enumerate(parser.listings[1:], start=900):
                     if len(row) >= 4:
                         name = row[0]
                         address = row[1]
@@ -114,6 +114,19 @@ def get_foundational_resources():
             "last_verified": str(datetime.date.today())
         },
         {
+            "id": "lunch-break-hub",
+            "category": "Basic Needs & Assistance",
+            "name": "Lunch Break",
+            "location": "Red Bank, NJ",
+            "description": "Community support hub providing grocery boxes, supplemental food assistance, and prepared hot meals/lunch programs. Also operates a community clothing and household goods thrift store.",
+            "website": "https://lunchbreak.org/",
+            "phone": "732-747-8577",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Monmouth County",
+            "last_verified": str(datetime.date.today())
+        },
+        {
             "id": "monmouth-res-03",
             "category": "Basic Needs & Assistance",
             "name": "Affordable Housing Alliance",
@@ -131,7 +144,7 @@ def get_foundational_resources():
             "category": "Basic Needs & Assistance",
             "name": "Calico Cat Food Pantry",
             "location": "Monmouth County, NJ",
-            "description": "Calico Cat provides food pantry services and emergency assistance to individuals and families in its service area. Emergency Assistance Fund: Provides one-time financial assistance to help low-income households with utility bills, rent, or mortgage payments. Service areas include Aberdeen, Atlantic Highlands, Belford, Cliffwood, Hazlet, Highlands, Holmdel, Keansburg, Keyport, Leonardo, Lincroft, Matawan, Middletown, Port Monmouth, Red Bank, and Union Beach (Note: Eatontown is not included in this fund's service area). Auto Repair Assistance: In some cases, assistance with auto repairs may extend beyond the listed towns; applicants should complete an application to determine qualification (not guaranteed).",
+            "description": "Calico Cat provides food pantry services and emergency assistance to individuals and families in its service area. Emergency Assistance Fund: Provides one-time financial assistance to help low-income households with utility bills, rent, or mortgage payments for residents of Aberdeen, Atlantic Highlands, Belford, Cliffwood, Hazlet, Highlands, Holmdel, Keansburg, Keyport, Leonardo, Lincroft, Matawan, Middletown, Port Monmouth, Red Bank, and Union Beach. Auto Repair Assistance: In some cases, assistance with auto repairs may extend beyond the listed towns; applicants should complete an application to determine qualification.",
             "website": "",
             "phone": "732-671-0550",
             "email": "",
@@ -220,11 +233,6 @@ def get_foundational_resources():
             "phone": "", "email": "", "cost_label": "Free / Optional paid membership", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
         },
         {
-            "id": "batch2-comm-02", "category": "Employment, Education & Career Development", "name": "Black Tech Pipeline", "location": "Online / Professional Community",
-            "description": "Career and professional resource connecting Black technology professionals with opportunities, employers, and industry networks.", "website": "https://blacktechpipeline.com/",
-            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
-        },
-        {
             "id": "batch2-comm-05", "category": "Employment, Education & Career Development", "name": "GitHub", "location": "Online / Developer Platform",
             "description": "Developer platform for hosting code, building portfolios, collaborating on projects, and connecting with the software development community.", "website": "https://github.com/",
             "phone": "", "email": "", "cost_label": "Free / Optional paid plans", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
@@ -289,8 +297,11 @@ def get_foundational_resources():
         },
         {
             "id": "batch3-mh-03", "category": "Mental Health & Emotional Support", "name": "Headway", "location": "Online / New Jersey",
-            "description": "Find therapists and mental health professionals who accept participating health insurance plans.", "website": "https://headway.co/therapists/new-jersey",
-            "phone": "", "email": "", "cost_label": "Free directory", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
+            "description": "Find therapists and mental health professionals who accept participating health insurance plans with zero cost to use the matching directory.",
+            "website": "https://headway.co/therapists/new-jersey",
+            "phone": "", "email": "", "cost_label": "Free directory",
+            "nj_access": "Statewide",
+            "last_verified": str(datetime.date.today())
         },
         {
             "id": "batch3-mh-08", "category": "Mental Health & Emotional Support", "name": "Therapy for Black Girls", "location": "Online / National",
@@ -310,23 +321,28 @@ def get_foundational_resources():
         {
             "id": "batch3-mh-23", "category": "Mental Health & Emotional Support", "name": "NJ MentalHealthCares", "location": "Statewide, NJ",
             "description": "New Jersey’s behavioral health information and referral service offering free, confidential emotional support, information, and referrals.", "website": "https://www.mhanj.org/new-jersey-mental-health-cares/",
-            "phone": "866-202-4357", "email": "", "cost_label": "Free", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
+            "phone": "866-202-4357", "email": "", "cost_label": "Free", "nj_access": "Statewide",
+            "last_verified": str(datetime.date.today())
         },
         {
             "id": "batch3-crisis-01", "category": "Mental Health & Emotional Support", "name": "988 Suicide & Crisis Lifeline", "location": "Nationwide",
             "description": "Free, confidential, 24/7 support for people experiencing emotional distress, suicidal thoughts, or mental health and substance-use crises. Call or text 988. For immediate life-threatening physical emergencies, call 911.",
             "website": "https://988lifeline.org/",
-            "phone": "988", "email": "", "cost_label": "Free", "nj_access": "Nationwide", "last_verified": str(datetime.date.today())
+            "phone": "988", "email": "", "cost_label": "Free",
+            "nj_access": "Nationwide",
+            "last_verified": str(datetime.date.today())
         },
         {
             "id": "batch3-crisis-02", "category": "Mental Health & Emotional Support", "name": "ReachNJ", "location": "Statewide, NJ",
             "description": "New Jersey’s 24/7 substance-use assistance line connecting people and families with addiction treatment and support services.", "website": "https://www.nj.gov/humanservices/dmhas/",
-            "phone": "1-844-732-2465", "email": "", "cost_label": "Free", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
+            "phone": "1-844-732-2465", "email": "", "cost_label": "Free", "nj_access": "Statewide",
+            "last_verified": str(datetime.date.today())
         },
         {
             "id": "batch3-crisis-03", "category": "Mental Health & Emotional Support", "name": "NJ 211", "location": "Statewide, NJ",
             "description": "Statewide information and referral service connecting residents with housing, food, healthcare, transportation, and other social services.", "website": "https://www.nj211.org/",
-            "phone": "211", "email": "", "cost_label": "Free", "nj_access": "Statewide", "last_verified": str(datetime.date.today())
+            "phone": "211", "email": "", "cost_label": "Free", "nj_access": "Statewide",
+            "last_verified": str(datetime.date.today())
         },
 
         # ==========================================
