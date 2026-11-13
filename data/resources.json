@@ -2,29 +2,29 @@
   {
     "id": "monmouth-res-01",
     "name": "Fulfill Food Bank & Mobile Pantries",
-    "category": "Food Assistance",
+    "category": "Basic Needs / Assistance",
     "location": "Neptune / Monmouth County, NJ",
     "phone": "732-918-2600",
     "website": "https://fulfillnj.org",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
     "id": "monmouth-res-02",
     "name": "Monmouth ResourceNet Directory",
-    "category": "Community Support",
+    "category": "Family & Support Services",
     "location": "Neptune, NJ",
     "phone": "732-222-8008",
     "website": "https://www.monmouthresourcenet.org",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
     "id": "monmouth-res-03",
     "name": "Affordable Housing Alliance",
-    "category": "Housing & Utilities",
+    "category": "Basic Needs / Assistance",
     "location": "Eatontown, NJ",
     "phone": "732-389-2958",
     "website": "https://housingall.org",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
     "id": "auto-scraped-100",
@@ -636,7 +636,7 @@
     "location": "Eatontown, NJ",
     "phone": "Contact via Parish",
     "website": "https://www.stjames-parish.com",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
     "id": "monmouth-res-05",
@@ -645,16 +645,16 @@
     "location": "Red Bank, NJ",
     "phone": "732-212-0777",
     "website": "https://parkerfamilyhealth.org",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
     "id": "monmouth-res-06",
     "name": "NJ Hospital Care Payment Assistance (Charity Care)",
-    "category": "Basic Needs / Assistance",
+    "category": "Medical Equipment & Health",
     "location": "Statewide / Monmouth County, NJ",
     "phone": "Contact Local Hospital",
     "website": "https://www.nj.gov/health/",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
     "id": "monmouth-res-07",
@@ -663,51 +663,735 @@
     "location": "Statewide, NJ",
     "phone": "1-800-701-0710",
     "website": "https://www.njfamilycare.org",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
     "id": "monmouth-res-08",
-    "name": "Catalyte & Apprenti Tech Apprenticeships",
+    "name": "Catalyte",
     "category": "Employment / Training",
     "location": "Remote / Regional NJ",
     "phone": "Online Program",
     "website": "https://www.catalyte.io",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
     "id": "monmouth-res-09",
-    "name": "ITDRC (Information Technology Disaster Resource Center)",
+    "name": "Apprenti",
     "category": "Employment / Training",
-    "location": "Remote / National Deployment",
-    "phone": "Nonprofit Support",
-    "website": "https://itdrc.org",
-    "last_verified": "2026-11-12"
+    "location": "National / Regional",
+    "phone": "Program Support",
+    "website": "https://apprenticareers.org",
+    "last_verified": "2026-11-13"
   },
   {
     "id": "monmouth-res-10",
+    "name": "Multiverse",
+    "category": "Employment / Training",
+    "location": "Remote / Virtual",
+    "phone": "Online Program",
+    "website": "https://www.multiverse.io",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-11",
+    "name": "Per Scholas",
+    "category": "Employment / Training",
+    "location": "Newark, NJ / Remote",
+    "phone": "Regional Office",
+    "website": "https://perscholas.org",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-12",
+    "name": "NPower",
+    "category": "Employment / Training",
+    "location": "Newark & Jersey City, NJ",
+    "phone": "Regional Office",
+    "website": "https://npower.org",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-13",
+    "name": "LaunchCode",
+    "category": "Employment / Training",
+    "location": "Remote Learning",
+    "phone": "Online Program",
+    "website": "https://www.launchcode.org",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-14",
+    "name": "Generation USA",
+    "category": "Employment / Training",
+    "location": "Remote Cohorts",
+    "phone": "Online Program",
+    "website": "https://usa.generation.org",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-15",
+    "name": "Goodwill Workforce Services",
+    "category": "Employment / Training",
+    "location": "New Jersey Centers",
+    "phone": "Local Center",
+    "website": "https://www.goodwill.org",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-16",
+    "name": "SkillUp Coalition",
+    "category": "Employment / Training",
+    "location": "Online Platform",
+    "phone": "Online Navigation",
+    "website": "https://skillup.org",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-17",
+    "name": "Forage",
+    "category": "Employment / Training",
+    "location": "Online Platform",
+    "phone": "Free Open Access",
+    "website": "https://www.theforage.com",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-18",
+    "name": "Red Bank Public Library & NJ Partner Libraries (Coursera/Udemy)",
+    "category": "Employment / Training",
+    "location": "Monmouth County, NJ",
+    "phone": "732-842-0690",
+    "website": "https://redbanklibrary.org",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "monmouth-res-19",
     "name": "Plato's Closet",
     "category": "Supplemental Income & Resale",
     "location": "Middletown, NJ",
     "phone": "Local Store",
     "website": "https://www.platoscloset.com",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
-    "id": "monmouth-res-11",
+    "id": "monmouth-res-20",
     "name": "Once Upon A Child",
     "category": "Supplemental Income & Resale",
     "location": "Howell, NJ",
     "phone": "Local Store",
     "website": "https://www.onceuponachild.com",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
   },
   {
-    "id": "monmouth-res-12",
+    "id": "monmouth-res-21",
     "name": "Flexible Gig Work Platforms (Reflex, Instacart, DoorDash)",
-    "category": "Employment / Training",
+    "category": "Supplemental Income & Resale",
     "location": "Monmouth County, NJ",
     "phone": "App-Based",
     "website": "https://www.reflex.com",
-    "last_verified": "2026-11-12"
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-200",
+    "name": "Matawan United Methodist Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "478 Atlantic Ave. (Corner of Church St.), Aberdeen, NJ",
+    "phone": "732-566-2996",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-201",
+    "name": "Allentown Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "20 High St. (Presbyterian Ch.), Allentown, NJ",
+    "phone": "609-259-7289",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-202",
+    "name": "Bethel Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "119 Atkins Ave. (near Springwood), Asbury Park, NJ",
+    "phone": "732-776-6068",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-203",
+    "name": "Deliverance Temple",
+    "category": "Basic Needs & Community Assistance",
+    "location": "504 Prospect Avenue, Asbury Park, NJ",
+    "phone": "732-774-3130",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-204",
+    "name": "First United Methodist A.P. Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "906 Grand Ave. (corner of First), Asbury Park, NJ",
+    "phone": "732-775-2693",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-205",
+    "name": "Glad Tidings",
+    "category": "Basic Needs & Community Assistance",
+    "location": "4012 Asbury Ave., Asbury Park, NJ",
+    "phone": "732-922-9189",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-206",
+    "name": "Jewish Family Services Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "705 Summerfield Ave., Asbury Park, NJ",
+    "phone": "732-774-6886",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-207",
+    "name": "Lutheran Church of Atonement Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "308 First Ave (xst. Heck St.), Asbury Park, NJ",
+    "phone": "732-776-5727",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-208",
+    "name": "Manna-United Fellowship Outreach",
+    "category": "Basic Needs & Community Assistance",
+    "location": "603 Third Avenue, Asbury Park, NJ",
+    "phone": "732-775-2177",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-209",
+    "name": "Mercy Center",
+    "category": "Basic Needs & Community Assistance",
+    "location": "1104 Main Street, Asbury Park, NJ",
+    "phone": "732-774-9397",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-210",
+    "name": "Mt. Carmel",
+    "category": "Basic Needs & Community Assistance",
+    "location": "1201 Asbury Ave, Asbury Park, NJ",
+    "phone": "Contact via Directory",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-211",
+    "name": "Oceans Family Success Center",
+    "category": "Basic Needs & Community Assistance",
+    "location": "1004 Comstock St., First Floor, Asbury Park, NJ",
+    "phone": "732-455-5272",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-212",
+    "name": "Salvation Army Pantry -Asbury Park",
+    "category": "Basic Needs & Community Assistance",
+    "location": "605 Asbury Ave., Asbury Park, NJ",
+    "phone": "732-775-8698",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-213",
+    "name": "Second Baptist Church Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "124 Atkins Ave, Asbury Park, NJ",
+    "phone": "732-774-5347",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-214",
+    "name": "St. Peter Claver Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "1419 Springwood Ave., Asbury Park, NJ",
+    "phone": "732-775-4157",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-215",
+    "name": "Trinity Epis. Last Resort Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "503 Asbury Ave. (Corner of Grand), Asbury Park, NJ",
+    "phone": "732-775-5084",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-216",
+    "name": "St. Augustine's Soup Kitchen *",
+    "category": "Basic Needs & Community Assistance",
+    "location": "Atlantic & Prospect Ave., Asbury Park, NJ",
+    "phone": "732-774-3069",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-217",
+    "name": "Trinity Episcopal Saturday Soup *",
+    "category": "Basic Needs & Community Assistance",
+    "location": "503 Asbury Ave., Asbury Park, NJ",
+    "phone": "732-775-5084",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-218",
+    "name": "Providence Baptist Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "49 Kennedy Ave. (xst. County Rd.), Cliffwood Bch, NJ",
+    "phone": "732-566-4430",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-219",
+    "name": "Eatontown Food Coop",
+    "category": "Basic Needs & Community Assistance",
+    "location": "15 Meridian Dr. (off Industrial), Eatontown, NJ",
+    "phone": "732-610-8588",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-220",
+    "name": "St. Dorothea's Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "240 Broad St. (Route 71), Eatontown, NJ",
+    "phone": "732-542-0148x6",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-221",
+    "name": "Middletown Help Its Own",
+    "category": "Basic Needs & Community Assistance",
+    "location": "612 Carter Ave., Fort Monmouth, NJ",
+    "phone": "732-787-3604",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-222",
+    "name": "Macedonia Freehold Church Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "163 Throckmorton St., Freehold, NJ",
+    "phone": "732-462-7797",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-223",
+    "name": "Meet the Need Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "40 Broad Street, Freehold, NJ",
+    "phone": "888-281-6434",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-224",
+    "name": "Open Door Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "39 Throckmorton St. (xst. Main), Freehold, NJ",
+    "phone": "732-780-1089",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-225",
+    "name": "St. John's Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "2000 Florence Avenue, Hazlet, NJ",
+    "phone": "732-264-1236",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-226",
+    "name": "OLPH Pantry (Our Lady of Perpetual Help)",
+    "category": "Basic Needs & Community Assistance",
+    "location": "159 Miller Street, Highlands, NJ",
+    "phone": "732-291-0272",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-227",
+    "name": "St. Benedict's Emerg Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "165 Bethany Rd. (entrance on Hillcrest, located in house left of school), Holmdel, NJ",
+    "phone": "732-264-4712 x 34",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-228",
+    "name": "Christ Church Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "71 Oak Glen Rd., Howell, NJ",
+    "phone": "732-938-7500",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-229",
+    "name": "Howell Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "449 Adelphia Rd.  (Rt. 524), Howell, NJ",
+    "phone": "732-938-2368",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-230",
+    "name": "Project Paul",
+    "category": "Basic Needs & Community Assistance",
+    "location": "211 Carr Ave., Keansburg, NJ",
+    "phone": "732-787-4887",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-231",
+    "name": "St. Mark's CCR Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "247 Carr Ave., Keansburg, NJ",
+    "phone": "732-787-3520",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-232",
+    "name": "St. Mark's CCR Soup Kitchen *",
+    "category": "Basic Needs & Community Assistance",
+    "location": "247 Carr Ave., Keansburg, NJ",
+    "phone": "732-787-3520",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-233",
+    "name": "Keyport Ministerium Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "42 Elizabeth Street, Keyport, NJ",
+    "phone": "732-888-1986",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-234",
+    "name": "St. Joseph Church Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "376 Maple Place, Keyport, NJ",
+    "phone": "732-290-1878",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-235",
+    "name": "Brookdale Wellness Center Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "765 Newman springs Rd. (wellness center), Lincroft, NJ",
+    "phone": "732-224-2079",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-236",
+    "name": "Christ the King Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "408 Prospect St. (Broadway to Willow), Long Branch, NJ",
+    "phone": "732-222-3216 x116",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-237",
+    "name": "First Baptist Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "499 Bath Ave (Use Emmons St. Entrance), Long Branch, NJ",
+    "phone": "732-229-1453",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-238",
+    "name": "St. Brigid's Pantry at St. James Church",
+    "category": "Basic Needs & Community Assistance",
+    "location": "300 Broadway (x St. Slocum), Long Branch, NJ",
+    "phone": "732-222-1411",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-239",
+    "name": "St. Luke's United Methodist Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "535 Broadway (corner of Washington St.), Long Branch, NJ",
+    "phone": "732-222-1341",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-240",
+    "name": "St. Michael's Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "800 Ocean Ave., Long Branch, NJ",
+    "phone": "732-483-0360 x1",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-241",
+    "name": "Meal At Noon (Soup Kitchen) *",
+    "category": "Basic Needs & Community Assistance",
+    "location": "93 Liberty St., Long Branch, NJ",
+    "phone": "732-456-0963",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-242",
+    "name": "St. Brigid's Soup Kitchen at St. James Church *",
+    "category": "Basic Needs & Community Assistance",
+    "location": "300 Broadway (x St. Slocum), Long Branch, NJ",
+    "phone": "732-222-1411",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-243",
+    "name": "Samaritan Center Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "211 Route 522 (In Public Works Complex), Manalapan, NJ",
+    "phone": "732-446-1142",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-244",
+    "name": "Hope Community Church Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "23 Taylor Ave., Manasquan, NJ",
+    "phone": "732-223-4115",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-245",
+    "name": "Manasquan Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "16 Virginia Ave. (1st Presbyterian), Manasquan, NJ",
+    "phone": "732-223-0898",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-246",
+    "name": "Monmouth Worship Ctr. Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "37 Vanderburg Rd, Marlboro, NJ",
+    "phone": "732-332-9600",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-247",
+    "name": "Matawan Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "201 Broad St. (Comm. Center), Matawan, NJ",
+    "phone": "732-566-2663",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-248",
+    "name": "Calico Cat Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "96  King's Hwy., Middletown, NJ",
+    "phone": "732-946-8525",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-249",
+    "name": "Goodness Now At Middletown UMC",
+    "category": "Basic Needs & Community Assistance",
+    "location": "924 Middletown-Lincroft Rd., Middletown, NJ",
+    "phone": "732-671-0707",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-250",
+    "name": "FPC Food Outreach",
+    "category": "Basic Needs & Community Assistance",
+    "location": "142 Oxonia Ave. (off Asbury Ave.), Neptune, NJ",
+    "phone": "732-775-8174",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-251",
+    "name": "Greater Emanuel Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "423 Drummond Ave. (xst Bangs Ave), Neptune, NJ",
+    "phone": "732-774-1963",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-252",
+    "name": "Mt. Olivet - Heaven's Grocery",
+    "category": "Basic Needs & Community Assistance",
+    "location": "1707 Washington Ave., Neptune, NJ",
+    "phone": "732-775-4333",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-253",
+    "name": "Bradley Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "101 3rd Ave, Neptune City, NJ",
+    "phone": "732-977-3606",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-254",
+    "name": "Sephardic Bikur Holim Pantry (SBH)",
+    "category": "Basic Needs & Community Assistance",
+    "location": "200 Norwood Ave., Oakhurst, NJ",
+    "phone": "732-531-1117 ext. 121",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-255",
+    "name": "St. Paul's Ocean Grove",
+    "category": "Basic Needs & Community Assistance",
+    "location": "81 Webb Ave., Ocean Grove, NJ",
+    "phone": "732-775-1125",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-256",
+    "name": "Lunch Break Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "121 Dr. James Parker's Blvd, Red Bank, NJ",
+    "phone": "732-747-8577",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-257",
+    "name": "Salvation Army Food Pantry - Red Bank",
+    "category": "Basic Needs & Community Assistance",
+    "location": "180 Newman Springs Road, Red Bank, NJ",
+    "phone": "732-747-1626",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-258",
+    "name": "St. Crispin's Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "121 Bridge Ave.(Parish Center), Red Bank, NJ",
+    "phone": "732-747-0813 x109",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-259",
+    "name": "VGCA Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "224 Shrewsbury Ave, Red Bank, NJ",
+    "phone": "732-455-2703",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-260",
+    "name": "BPC Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "247 Broad Street, Red Bank, NJ",
+    "phone": "732-747-0446",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-261",
+    "name": "Lunch Break Soup Kitchen *",
+    "category": "Basic Needs & Community Assistance",
+    "location": "121 Dr. Parker's Blvd, Red Bank, NJ",
+    "phone": "732-747-8577",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-262",
+    "name": "Collingwood SDA Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "276 Shark River Road, Tinton Falls, NJ",
+    "phone": "732-922-1675",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-263",
+    "name": "Faith Chapel",
+    "category": "Basic Needs & Community Assistance",
+    "location": "1015 Union Ave., Union Bch., NJ",
+    "phone": "732-264-5248",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-264",
+    "name": "Reformation Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "992 Broadway (Corner of Locust), West Long Branch, NJ",
+    "phone": "732-229-9180",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-265",
+    "name": "The Mews Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "The Mews - 2 Liron Lane, Wall (Collingwood), NJ",
+    "phone": "732-919-6227",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
+  },
+  {
+    "id": "auto-scraped-266",
+    "name": "West Belmar Food Pantry",
+    "category": "Basic Needs & Community Assistance",
+    "location": "1000 17th Ave, West Belmar, NJ",
+    "phone": "732-681-4413",
+    "website": "https://workinmonmouth.com/monmouth-county-pantries-and-soup-kitchens/",
+    "last_verified": "2026-11-13"
   }
 ]
