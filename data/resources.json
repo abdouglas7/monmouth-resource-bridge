@@ -9,8 +9,8 @@
     "phone": "732-918-2600",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "monmouth-res-02",
@@ -21,9 +21,9 @@
     "website": "https://www.monmouthresourcenet.org",
     "phone": "732-222-8008",
     "email": "",
-    "cost_label": "Free directory",
+    "cost_label": "Free",
     "nj_access": "Monmouth County",
-    "last_verified": "2026-11-13"
+    "last_verified": "2026-11-14"
   },
   {
     "id": "monmouth-res-03",
@@ -34,9 +34,9 @@
     "website": "https://housingall.org",
     "phone": "732-389-2958",
     "email": "",
-    "cost_label": "Low-cost options",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "cost_label": "Low-Cost / Sliding Scale",
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-100",
@@ -1528,9 +1528,9 @@
     "website": "https://jbjsoulkitchen.org/",
     "phone": "732-842-0900",
     "email": "info@jbjsoulkitchen.org",
-    "cost_label": "Free / Donation-based",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "cost_label": "Donation-Based",
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "monmouth-res-30",
@@ -1542,8 +1542,8 @@
     "phone": "732-842-0690",
     "email": "redbanklibrary@gmail.com",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "monmouth-res-31",
@@ -3778,9 +3778,9 @@
     "website": "https://www.linkedin.com/jobs/",
     "phone": "",
     "email": "",
-    "cost_label": "Free / Optional Premium",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Paid",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch1-job-02",
@@ -3792,8 +3792,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch1-job-03",
@@ -3805,8 +3805,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch1-job-10",
@@ -3818,8 +3818,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch1-job-15",
@@ -3831,8 +3831,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch1-job-17",
@@ -3843,9 +3843,9 @@
     "website": "https://www.flexjobs.com/",
     "phone": "",
     "email": "",
-    "cost_label": "Paid service",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Paid",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch1-job-26",
@@ -3857,8 +3857,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch1-job-28",
@@ -3870,8 +3870,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Statewide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Statewide (NJ)",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch1-job-31",
@@ -3882,9 +3882,9 @@
     "website": "https://www.upwork.com/",
     "phone": "",
     "email": "",
-    "cost_label": "Free / Membership fees apply",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Paid",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch2-comm-01",
@@ -3895,9 +3895,9 @@
     "website": "https://www.hiretechladies.com/",
     "phone": "",
     "email": "",
-    "cost_label": "Free / Optional paid membership",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Paid",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch2-comm-02",
@@ -3921,9 +3921,9 @@
     "website": "https://github.com/",
     "phone": "",
     "email": "",
-    "cost_label": "Free / Optional paid plans",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Free",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch2-emp-01",
@@ -3935,8 +3935,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch2-emp-02",
@@ -3948,8 +3948,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-mh-01",
@@ -3960,9 +3960,9 @@
     "website": "https://openpathcollective.org/",
     "phone": "",
     "email": "",
-    "cost_label": "Low-cost options",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Low-Cost / Sliding Scale",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-mh-02",
@@ -3973,9 +3973,9 @@
     "website": "https://www.psychologytoday.com/us/therapists",
     "phone": "",
     "email": "",
-    "cost_label": "Free directory",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Free",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-mh-03",
@@ -3986,9 +3986,9 @@
     "website": "https://headway.co/therapists/new-jersey",
     "phone": "",
     "email": "",
-    "cost_label": "Free directory",
-    "nj_access": "Statewide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Free",
+    "nj_access": "Statewide (NJ)",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-mh-08",
@@ -3999,9 +3999,9 @@
     "website": "https://providers.therapyforblackgirls.com/",
     "phone": "",
     "email": "",
-    "cost_label": "Free directory",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Free",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-mh-11",
@@ -4012,9 +4012,9 @@
     "website": "https://therapyforblackmen.org/therapists",
     "phone": "",
     "email": "",
-    "cost_label": "Free directory",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Free",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-mh-19",
@@ -4025,9 +4025,9 @@
     "website": "https://thelovelandfoundation.org/therapy-fund/",
     "phone": "",
     "email": "",
-    "cost_label": "Low-cost options",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "cost_label": "Low-Cost / Sliding Scale",
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-mh-23",
@@ -4039,21 +4039,21 @@
     "phone": "866-202-4357",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Statewide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Statewide (NJ)",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-crisis-01",
     "category": "Mental Health & Emotional Support",
     "name": "988 Suicide & Crisis Lifeline",
     "location": "Nationwide",
-    "description": "Free, confidential, 24/7 support for people experiencing emotional distress, suicidal thoughts, or mental health and substance-use crises. Call or text 988. For immediate life-threatening physical emergencies, call 911.",
+    "description": "Free, confidential, 24/7 support for people experiencing emotional distress, suicidal thoughts, or mental health and substance-use crises. Call or text 988.",
     "website": "https://988lifeline.org/",
     "phone": "988",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Nationwide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Nationwide / Online",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-crisis-02",
@@ -4065,8 +4065,8 @@
     "phone": "1-844-732-2465",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Statewide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Statewide (NJ)",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "batch3-crisis-03",
@@ -4078,8 +4078,8 @@
     "phone": "211",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Statewide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Statewide (NJ)",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-600",
@@ -4957,13 +4957,13 @@
     "category": "Basic Needs & Assistance",
     "name": "Calico Cat Food Pantry",
     "location": "Monmouth County, NJ",
-    "description": "Calico Cat provides food pantry services and emergency assistance to individuals and families in its service area. Emergency Assistance Fund: Provides one-time financial assistance to help low-income households with utility bills, rent, or mortgage payments for residents of Aberdeen, Atlantic Highlands, Belford, Cliffwood, Hazlet, Highlands, Holmdel, Keansburg, Keyport, Leonardo, Lincroft, Matawan, Middletown, Port Monmouth, Red Bank, and Union Beach. Auto Repair Assistance: In some cases, assistance with auto repairs may extend beyond the listed towns; applicants should complete an application to determine qualification.",
+    "description": "Calico Cat provides food pantry services and emergency assistance to individuals and families in its service area. Emergency Assistance Fund: Provides one-time financial assistance to help low-income households with utility bills, rent, or mortgage payments for residents of Aberdeen, Atlantic Highlands, Belford, Cliffwood, Hazlet, Highlands, Holmdel, Keansburg, Keyport, Leonardo, Lincroft, Matawan, Middletown, Port Monmouth, Red Bank, and Union Beach.",
     "website": "",
     "phone": "732-671-0550",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Specific Monmouth Communities",
-    "last_verified": "2026-11-13"
+    "nj_access": "Select Communities",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "allentown-food-pantry",
@@ -4975,8 +4975,8 @@
     "phone": "609-259-7289",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Select Communities",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "monmouth-res-pharmacy-01",
@@ -4988,8 +4988,8 @@
     "phone": "732-784-8999",
     "email": "pharmacist@rscprx.org",
     "cost_label": "Free",
-    "nj_access": "Statewide",
-    "last_verified": "2026-11-13"
+    "nj_access": "Statewide (NJ)",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-800",
@@ -5873,7 +5873,7 @@
     "email": "",
     "cost_label": "Free",
     "nj_access": "Monmouth County",
-    "last_verified": "2026-11-13"
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-900",
@@ -5885,8 +5885,8 @@
     "phone": "732-566-2996",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-901",
@@ -5898,8 +5898,8 @@
     "phone": "609-259-7289",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-902",
@@ -5911,8 +5911,8 @@
     "phone": "732-776-6068",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-903",
@@ -5924,8 +5924,8 @@
     "phone": "732-774-3130",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-904",
@@ -5937,8 +5937,8 @@
     "phone": "732-775-2693",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-905",
@@ -5950,8 +5950,8 @@
     "phone": "732-922-9189",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-906",
@@ -5963,8 +5963,8 @@
     "phone": "732-774-6886",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-907",
@@ -5976,8 +5976,8 @@
     "phone": "732-776-5727",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-908",
@@ -5989,8 +5989,8 @@
     "phone": "732-775-2177",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-909",
@@ -6002,8 +6002,8 @@
     "phone": "732-774-9397",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-910",
@@ -6015,8 +6015,8 @@
     "phone": "",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-911",
@@ -6028,8 +6028,8 @@
     "phone": "732-455-5272",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-912",
@@ -6041,8 +6041,8 @@
     "phone": "732-775-8698",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-913",
@@ -6054,8 +6054,8 @@
     "phone": "732-774-5347",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-914",
@@ -6067,8 +6067,8 @@
     "phone": "732-775-4157",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-915",
@@ -6080,8 +6080,8 @@
     "phone": "732-775-5084",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-916",
@@ -6093,8 +6093,8 @@
     "phone": "732-774-3069",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-917",
@@ -6106,8 +6106,8 @@
     "phone": "732-775-5084",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-918",
@@ -6119,8 +6119,8 @@
     "phone": "732-566-4430",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-919",
@@ -6132,8 +6132,8 @@
     "phone": "732-610-8588",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-920",
@@ -6145,8 +6145,8 @@
     "phone": "732-542-0148x6",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-921",
@@ -6158,8 +6158,8 @@
     "phone": "732-787-3604",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-922",
@@ -6171,8 +6171,8 @@
     "phone": "732-462-7797",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-923",
@@ -6184,8 +6184,8 @@
     "phone": "888-281-6434",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-924",
@@ -6197,8 +6197,8 @@
     "phone": "732-780-1089",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-925",
@@ -6210,8 +6210,8 @@
     "phone": "732-264-1236",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-926",
@@ -6223,8 +6223,8 @@
     "phone": "732-291-0272",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-927",
@@ -6236,8 +6236,8 @@
     "phone": "732-264-4712 x 34",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-928",
@@ -6249,8 +6249,8 @@
     "phone": "732-938-7500",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-929",
@@ -6262,8 +6262,8 @@
     "phone": "732-938-2368",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-930",
@@ -6275,8 +6275,8 @@
     "phone": "732-787-4887",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-931",
@@ -6288,8 +6288,8 @@
     "phone": "732-787-3520",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-932",
@@ -6301,8 +6301,8 @@
     "phone": "732-787-3520",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-933",
@@ -6314,8 +6314,8 @@
     "phone": "732-888-1986",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-934",
@@ -6327,8 +6327,8 @@
     "phone": "732-290-1878",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-935",
@@ -6340,8 +6340,8 @@
     "phone": "732-224-2079",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-936",
@@ -6353,8 +6353,8 @@
     "phone": "732-222-3216 x116",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-937",
@@ -6366,8 +6366,8 @@
     "phone": "732-229-1453",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-938",
@@ -6379,8 +6379,8 @@
     "phone": "732-222-1411",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-939",
@@ -6392,8 +6392,8 @@
     "phone": "732-222-1341",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-940",
@@ -6405,8 +6405,8 @@
     "phone": "732-483-0360 x1",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-941",
@@ -6418,8 +6418,8 @@
     "phone": "732-456-0963",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-942",
@@ -6431,8 +6431,8 @@
     "phone": "732-222-1411",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-943",
@@ -6444,8 +6444,8 @@
     "phone": "732-446-1142",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-944",
@@ -6457,8 +6457,8 @@
     "phone": "732-223-4115",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-945",
@@ -6470,8 +6470,8 @@
     "phone": "732-223-0898",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-946",
@@ -6483,8 +6483,8 @@
     "phone": "732-332-9600",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-947",
@@ -6496,8 +6496,8 @@
     "phone": "732-566-2663",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-948",
@@ -6509,8 +6509,8 @@
     "phone": "732-946-8525",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-949",
@@ -6522,8 +6522,8 @@
     "phone": "732-671-0707",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-950",
@@ -6535,8 +6535,8 @@
     "phone": "732-775-8174",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-951",
@@ -6548,8 +6548,8 @@
     "phone": "732-774-1963",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-952",
@@ -6561,8 +6561,8 @@
     "phone": "732-775-4333",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-953",
@@ -6574,8 +6574,8 @@
     "phone": "732-977-3606",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-954",
@@ -6587,8 +6587,8 @@
     "phone": "732-531-1117 ext. 121",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-955",
@@ -6600,8 +6600,8 @@
     "phone": "732-775-1125",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-956",
@@ -6613,8 +6613,8 @@
     "phone": "732-747-8577",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-957",
@@ -6626,8 +6626,8 @@
     "phone": "732-747-1626",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-958",
@@ -6639,8 +6639,8 @@
     "phone": "732-747-0813 x109",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-959",
@@ -6652,8 +6652,8 @@
     "phone": "732-455-2703",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-960",
@@ -6665,8 +6665,8 @@
     "phone": "732-747-0446",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-961",
@@ -6678,8 +6678,8 @@
     "phone": "732-747-8577",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-962",
@@ -6691,8 +6691,8 @@
     "phone": "732-922-1675",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-963",
@@ -6704,8 +6704,8 @@
     "phone": "732-264-5248",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-964",
@@ -6717,8 +6717,8 @@
     "phone": "732-229-9180",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-965",
@@ -6730,8 +6730,8 @@
     "phone": "732-919-6227",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   },
   {
     "id": "auto-scraped-966",
@@ -6743,7 +6743,7 @@
     "phone": "732-681-4413",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Yes",
-    "last_verified": "2026-11-13"
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   }
 ]
