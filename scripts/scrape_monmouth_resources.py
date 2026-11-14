@@ -83,7 +83,19 @@ def fetch_live_directory_feeds():
 
 def get_foundational_resources():
     """Consolidated master list organized strictly under streamlined categories with clean labels and zero duplicates."""
-    return [
+    return [        {
+            "id": "test-live-verify-01",
+            "category": "Basic Needs & Assistance",
+            "name": "Monmouth Test Community Pantry",
+            "location": "Eatontown, NJ",
+            "description": "Verification test entry to confirm live automated append-only database updates.",
+            "website": "",
+            "phone": "732-555-0199",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Monmouth County",
+            "last_verified": str(datetime.date.today())
+        },
         # ==========================================
         # 1. BASIC NEEDS & ASSISTANCE
         # ==========================================
