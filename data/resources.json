@@ -7135,5 +7135,18 @@
     "cost_label": "Free",
     "nj_access": "Monmouth County",
     "last_verified": "2026-11-14"
+  },
+  {
+    "id": "et-03",
+    "category": "Employment & Training",
+    "name": "Monmouth County Vocational School District (MCVSD) Adult Education",
+    "location": "Freehold, NJ",
+    "description": "Career-focused adult training, professional certifications, and technical education programs.",
+    "website": "https://www.mcvsd.org",
+    "phone": "732-431-7942",
+    "email": "",
+    "cost_label": "Varies",
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   }
 ]
