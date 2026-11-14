@@ -83,18 +83,71 @@ def fetch_live_directory_feeds():
 
 def get_foundational_resources():
     """Consolidated master list organized strictly under streamlined categories with clean labels and zero duplicates."""
-    return [        {
-            "id": "test-live-verify-01",
+    return [                {
+            "id": "test-batch-01",
             "category": "Basic Needs & Assistance",
-            "name": "Monmouth Test Community Pantry",
+            "name": "Monmouth Test Resource Alpha",
             "location": "Eatontown, NJ",
-            "description": "Verification test entry to confirm live automated append-only database updates.",
+            "description": "Batch verification test entry one.",
             "website": "",
-            "phone": "732-555-0199",
+            "phone": "732-555-0111",
             "email": "",
             "cost_label": "Free",
             "nj_access": "Monmouth County",
             "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "test-batch-02",
+            "category": "Health & Wellness",
+            "name": "Monmouth Test Resource Beta",
+            "location": "Red Bank, NJ",
+            "description": "Batch verification test entry two.",
+            "website": "",
+            "phone": "732-555-0222",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Monmouth County",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "test-batch-03",
+            "category": "Employment & Training",
+            "name": "Monmouth Test Resource Gamma",
+            "location": "Long Branch, NJ",
+            "description": "Batch verification test entry three.",
+            "website": "",
+            "phone": "732-555-0333",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Monmouth County",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "test-batch-04",
+            "category": "Youth & Family Services",
+            "name": "Monmouth Test Resource Delta",
+            "location": "Asbury Park, NJ",
+            "description": "Batch verification test entry four.",
+            "website": "",
+            "phone": "732-555-0444",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Monmouth County",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "test-batch-05",
+            "category": "Housing & Utilities",
+            "name": "Monmouth Test Resource Epsilon",
+            "location": "Freehold, NJ",
+            "description": "Batch verification test entry five.",
+            "website": "",
+            "phone": "732-555-0555",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Monmouth County",
+            "last_verified": str(datetime.date.today())
+        },
         },
         # ==========================================
         # 1. BASIC NEEDS & ASSISTANCE
