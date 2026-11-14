@@ -6745,5 +6745,18 @@
     "cost_label": "Free",
     "nj_access": "Monmouth County",
     "last_verified": "2026-11-14"
+  },
+  {
+    "id": "test-live-verify-01",
+    "category": "Basic Needs & Assistance",
+    "name": "Monmouth Test Community Pantry",
+    "location": "Eatontown, NJ",
+    "description": "Verification test entry to confirm live automated append-only database updates.",
+    "website": "",
+    "phone": "732-555-0199",
+    "email": "",
+    "cost_label": "Free",
+    "nj_access": "Monmouth County",
+    "last_verified": "2026-11-14"
   }
 ]
