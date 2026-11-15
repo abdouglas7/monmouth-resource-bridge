@@ -312,7 +312,8 @@ def get_foundational_resources():
         {
             "id": "batch3-mh-11", "category": "Mental Health & Emotional Support", "name": "Therapy for Black Men", "location": "Online / National",
             "description": "Therapist directory and mental health resource designed to help Black men find culturally responsive mental health support.", "website": "https://therapyforblackmen.org/therapists",
-            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide / Online", "last_verified": str(datetime.date.today())
+            "phone": "", "email": "", "cost_label": "Free", "nj_access": "Nationwide / Online",
+            "last_verified": str(datetime.date.today())
         },
         {
             "id": "batch3-mh-19", "category": "Mental Health & Emotional Support", "name": "The Loveland Foundation — Therapy Fund", "location": "Online / National",
@@ -363,7 +364,6 @@ def update_resource_database():
         except Exception as e:
             print(f"Warning: Could not read existing data file: {e}")
 
-    # Merge and deduplicate by 'id' or 'name' so we APPEND safely without wiping
     resource_map = {}
     for item in existing_resources:
         key = item.get("id", item.get("name"))
