@@ -127,7 +127,16 @@ def get_foundational_resources():
             "category": "Basic Needs & Assistance",
             "name": "Calico Cat Food Pantry",
             "location": "96 Kings Hwy, Middletown Twp, NJ 07748",
-            "description": "Calico Cat provides food pantry services and emergency assistance to individuals and families in its service area. Serving select communities: Aberdeen, Atlantic Highlands, Belford, Cliffwood, Hazlet, Highlands, Holmdel, Keansburg, Keyport, Leonardo, Lincroft, Matawan, Middletown, Port Monmouth, Red Bank, and Union Beach. Emergency Assistance Fund provides one-time financial assistance to help low-income households with utility bills, rent, or mortgage payments. Food Pantry Hours: 1st and 3rd Wednesdays only, 9:00 AM - 3:00 PM (after 3:00 PM by appointment only).",
+            "description": (
+                "Calico Cat provides food pantry services and emergency assistance to individuals and families in its service area.\n\n"
+                "Food Pantry Hours:\n"
+                "1st and 3rd Wednesdays only: 9:00 AM – 3:00 PM\n"
+                "After 3:00 PM: by appointment only\n\n"
+                "Emergency Assistance Fund:\n"
+                "Provides one-time financial assistance for low-income households needing help with utility bills, rent, or mortgage payments.\n\n"
+                "Serving select communities:\n"
+                "Aberdeen, Atlantic Highlands, Belford, Cliffwood, Hazlet, Highlands, Holmdel, Keansburg, Keyport, Leonardo, Lincroft, Matawan, Middletown, Port Monmouth, Red Bank, and Union Beach."
+            ),
             "website": "https://www.communityoutreachgroupinc.com",
             "phone": "732-671-8775",
             "email": "",
@@ -282,7 +291,13 @@ def get_foundational_resources():
             "category": "Healthcare & Medical Resources",
             "name": "Ritesh Shah Charitable Pharmacy",
             "location": "224 Shrewsbury Avenue, Red Bank, NJ 07701",
-            "description": "Charitable pharmacy providing life-saving maintenance medications at zero cost to uninsured and underinsured community members. Hours: Monday, Tuesday, and Thursday 11:00 AM - 4:00 PM; Friday 10:00 AM - 3:00 PM.",
+            "description": (
+                "Charitable pharmacy providing life-saving maintenance medications at zero cost to uninsured and underinsured community members.\n\n"
+                "Hours of Operation:\n"
+                "Monday, Tuesday & Thursday: 11:00 AM – 4:00 PM\n"
+                "Friday: 10:00 AM – 3:00 PM\n"
+                "Wednesday, Saturday & Sunday: Closed"
+            ),
             "website": "https://rscprx.org",
             "phone": "732-784-8999",
             "email": "info@rscharitablepharmacy.org",
