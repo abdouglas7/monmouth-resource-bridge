@@ -530,7 +530,7 @@ def get_foundational_resources():
             "cost_label": "Notice",
             "nj_access": "Countywide",
             "last_verified": str(datetime.date.today())
-        }
+        },
         {
             "id": "linkedin-jobs",
             "category": "Employment, Education & Career Development",
@@ -908,6 +908,160 @@ def get_foundational_resources():
             "nj_access": "Age: Early Career (Students & Grads)",
             "last_verified": "2026-11-15"
         },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "Monmouth ACTS — ResourceConnect",
+                "cost_label": "Free",
+                "description": "Program Overview:\nMonmouth County’s resource-navigation service. Residents can speak with someone who helps identify and connect them with local mental health services, counseling, substance-use support, housing assistance, and other community resources.\n\nHours:\nMonday – Friday: 8:30 AM – 4:30 PM",
+                "website": "https://monmouthacts.org/",
+                "id": "monmouth-acts-resourceconnect",
+                "location": "Monmouth County (Countywide Resource Navigation)",
+                "phone": "(732) 683-8959",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "Monmouth County Office of Mental Wellness and Supportive Services",
+                "cost_label": "Free",
+                "description": "Program Overview:\nCounty government office providing information and referrals for mental health and substance-use services. It advocates for residents who need help accessing services, assists with consumer concerns, and coordinates behavioral health resources throughout Monmouth County.\n\nHours:\nMonday – Friday: 8:30 AM – 4:30 PM",
+                "website": "https://www.co.monmouth.nj.us/page.aspx?ID=5009",
+                "id": "monmouth-office-mental-wellness",
+                "location": "Freehold, NJ (Countywide Coordination)",
+                "phone": "(732) 431-6451",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "Mental Health Association of Monmouth County",
+                "cost_label": "Free  ·  Low-cost options (Program dependent)",
+                "description": "Program Overview:\nA local nonprofit organization offering mental health education, family support, community-based assistance, recovery resources, and outpatient treatment programs that feature insurance/self-pay and sliding-scale options.\n\nHours:\nMonday – Friday: 8:30 AM – 4:30 PM",
+                "website": "https://www.mentalhealthmonmouth.org/",
+                "id": "mental-health-association-monmouth",
+                "location": "119 Ave of the Commons, Suite 203, Shrewsbury, NJ 07702",
+                "phone": "(732) 542-6422",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "CONTACT of Ocean & Monmouth Counties",
+                "cost_label": "Free",
+                "description": "Program Overview:\nProvides free, confidential emotional support through trained volunteer listeners. Individuals can call when they feel lonely, overwhelmed, depressed, distressed, or simply need someone to listen, alongside referrals to community resources.\n\nHours:\n24/7, subject to volunteer availability",
+                "website": "https://contactoceanmonmouth.org/",
+                "id": "contact-ocean-monmouth",
+                "location": "Monmouth & Ocean Counties (24/7 Support Line)",
+                "phone": "(732) 240-6100 · Toll-Free: (800) 272-4630",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "NAMI Greater Monmouth",
+                "cost_label": "Free",
+                "description": "Program Overview:\nLocal affiliate of the National Alliance on Mental Illness offering peer-led mental health support groups, family support groups, education, and community resources for individuals and families affected by mental health conditions.\n\nHours:\nMeeting schedules vary by group (consult website for calendar)",
+                "website": "https://www.namigm.org/",
+                "id": "nami-greater-monmouth",
+                "location": "Monmouth County (Community Support Groups & Virtual)",
+                "phone": "(732) 414-2422",
+                "email": ""
+            },
+            {
+                "category": "Healthcare & Medical Resources",
+                "name": "YMCA of the Jersey Shore — Counseling & Social Services",
+                "cost_label": "Low-cost options · Paid service (Insurance dependent · Sliding-scale available)",
+                "description": "Program Overview:\nProvides confidential counseling and behavioral health services for children, adolescents, adults, and families, including individual, family, and group counseling, psychiatric services (accessed through clinical staff for clients receiving counseling), and substance-use support. Sliding-scale fees are available.",
+                "website": "https://ymcanj.org/locations/counseling-social-services/",
+                "id": "ymca-counseling-social-services",
+                "location": "Centers in Freehold, Matawan & Shrewsbury, NJ",
+                "phone": "(732) 671-5505",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "CPC Integrated Health",
+                "cost_label": "Low-cost options · Paid service (Insurance dependent · Sliding-scale available)",
+                "description": "Program Overview:\nA nonprofit behavioral health organization providing outpatient mental health and substance-use treatment for children, adolescents, adults, and families, including individual therapy, group counseling, psychiatric evaluations, and medication monitoring.\n\nHours:\nMonday – Thursday: 8:00 AM – 8:00 PM\nFriday: 8:00 AM – 5:00 PM",
+                "website": "https://cpcintegratedhealth.org/",
+                "id": "cpc-integrated-health",
+                "location": "Outpatient Centers in Red Bank, Aberdeen & Freehold, NJ",
+                "phone": "(732) 842-2000",
+                "email": ""
+            },
+            {
+                "category": "Healthcare & Medical Resources",
+                "name": "Monmouth Family Health Center — Behavioral Health",
+                "cost_label": "Cost not verified (Sliding-scale fee available based on income)",
+                "description": "Program Overview:\nA community health center in Long Branch providing behavioral health services, including individual therapy, couples counseling, medication-management coordination, and referrals to higher levels of care and substance-use treatment.\n\nHours:\nMonday – Friday: 9:00 AM – 5:00 PM",
+                "website": "https://www.mfhcnj.org/patient-services/behavioral-health",
+                "id": "monmouth-family-health-behavioral",
+                "location": "270 Broadway, Long Branch, NJ 07740",
+                "phone": "(732) 923-7100",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "Wholehearted Healing Collective",
+                "cost_label": "Low-cost options · Paid service (Insurance dependent · Sliding-scale options)",
+                "description": "Program Overview:\nA West Long Branch counseling practice offering individual therapy, couples counseling, family therapy, group counseling, and specialized mental wellness programming accepting private insurance and self-pay with sliding-scale options.\n\nHours:\nBy appointment",
+                "website": "https://wholeheartedhc.org/",
+                "id": "wholehearted-healing-collective",
+                "location": "86 Monmouth Rd, West Long Branch, NJ 07764",
+                "phone": "(732) 852-7377",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "Monmouth Medical Center — Psychiatric Emergency Screening Services (PESS)",
+                "cost_label": "Paid service (Emergency assistance available regardless of ability to pay)",
+                "description": "Program Overview:\nMonmouth County’s designated psychiatric emergency screening service providing crisis assessments, psychiatric evaluations, emergency intervention, stabilization, mobile outreach, family crisis services, and a 24-hour crisis hotline.\n\nHours:\n24/7 Availability",
+                "website": "https://www.rwjbh.org/monmouth-medical-center/treatment-care/mental-health-and-behavioral-health/mental-health-services/psychiatric-emergency-screening-services/",
+                "id": "monmouth-medical-pess",
+                "location": "300 Second Ave, Long Branch, NJ 07740",
+                "phone": "(732) 923-6999 (24/7 Crisis Hotline & Mobile Screening)",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "Monmouth Medical Center — Early Intervention Support Services (EISS)",
+                "cost_label": "Cost not verified (Rapid-access outpatient program)",
+                "description": "Program Overview:\nProvides up to 30 days of rapid-access outpatient mental health treatment for Monmouth County residents age 18 and older who need immediate support to avoid hospital-based care and can safely receive treatment in the community. Services include therapy, medication evaluation, recovery planning, and connections to community resources.\n\nHours:\nOn-call staff available 24/7\ncontact the program for treatment and walk-in hours.",
+                "website": "https://www.rwjbh.org/monmouth-medical-center/treatment-care/mental-health-and-behavioral-health/mental-health-services/early-intervention-support-services-eiss-/",
+                "id": "monmouth-medical-eiss",
+                "location": "3301 Route 66, Neptune, NJ 07753",
+                "phone": "(732) 923-6500",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "PerformCare — Children’s System of Care",
+                "cost_label": "Free to call; service costs and coverage vary",
+                "description": "Program Overview:\nNew Jersey’s access point for publicly funded behavioral health, substance-use treatment, and intellectual/developmental disability services for eligible youth and their families. Behavioral-health services primarily serve youth age 5 until their 21st birthday, with eligibility varying by service.\n\nHours:\n24/7 Availability",
+                "website": "https://www.performcarenj.org/",
+                "id": "performcare-childrens-system",
+                "location": "Statewide (New Jersey)",
+                "phone": "(877) 652-7624 (24/7 Toll-Free Access Line)",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "180 Turning Lives Around",
+                "cost_label": "Free",
+                "description": "Program Overview:\nA Monmouth County-based nonprofit supporting survivors of domestic violence and sexual violence by providing free, confidential services including counseling, legal advocacy, emergency shelter, and 24/7 hotlines.\n\nHours:\n24/7 Hotlines & Emergency Services\nOffice: Monday – Friday: 9:00 AM – 5:00 PM",
+                "website": "https://180nj.org/",
+                "id": "180-turning-lives-around",
+                "location": "Monmouth County (Confidential Locations & Countywide Outreach)",
+                "phone": "(888) 843-9262 (24/7 Domestic Violence) · (888) 264-7273 (24/7 Sexual Assault) · Office: (732) 264-4111",
+                "email": ""
+            },
+            {
+                "category": "Mental Health & Emotional Support",
+                "name": "2NDFLOOR — New Jersey Youth Helpline",
+                "cost_label": "Free",
+                "description": "Program Overview:\nA free, confidential, and anonymous emotional support text and call line for New Jersey youth and young adults ages 10–24 to talk about mental health, family challenges, relationships, and school stress (subject to mandatory reporting obligations regarding abuse and harm to self or others).\n\nHours:\n24/7 Availability",
+                "website": "https://www.2ndfloor.org/",
+                "id": "2ndfloor-youth-helpline",
+                "location": "Statewide (New Jersey)",
+                "phone": "1-888-222-2228 (Call or Text 24/7)",
+                "email": ""
+            },
     ]
 
 # Fake test listings and duplicates that must never appear on the site.
