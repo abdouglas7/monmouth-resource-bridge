@@ -465,7 +465,14 @@ def update_resource_database():
     
     # Merge strategy: foundational curated resources take precedence by ID and name
     combined_dict = {}
-    
+    if os.path.exists(DATA_FILE_PATH):
+        try:
+            with open(DATA_FILE_PATH, "r", encoding="utf-8") as f:
+                for item in json.load(f):
+                    if isinstance(item, dict) and "id" in item:
+                        combined_dict[item["id"]] = item
+        except Exception:
+            pass
     for item in foundational:
         combined_dict[item["id"]] = item
         
