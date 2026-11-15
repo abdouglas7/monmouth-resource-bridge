@@ -241,6 +241,86 @@ def get_foundational_resources():
         },
 
         # ==========================================
+                {
+            "id": "perscholas-it-training",
+            "category": "Employment, Education & Career Development",
+            "name": "Per Scholas",
+            "location": "12 Lombardy Street, Newark, NJ 07102",
+            "description": "Tuition-free IT training, professional development, and career support services. They offer in-person, remote, and hybrid courses.\n\nHours of Operation:\nMonday \u2013 Friday: 9:00 AM \u2013 5:00 PM",
+            "website": "https://perscholas.org",
+            "phone": "(973) 803-4420",
+            "email": "info@perscholas.org",
+            "cost_label": "Free",
+            "nj_access": "Age: 18+ (No upper limit)",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "npower-tech-fundamentals",
+            "category": "Employment, Education & Career Development",
+            "name": "NPower",
+            "location": "Newark, NJ",
+            "description": "Offers tech fundamentals, cybersecurity, and cloud computing training for young adults and military veterans, with local NJ cohorts. They offer in-person, remote, and hybrid courses.\n\nEligibility Note:\nWhile NPower primarily targets young adults aged 18 to 26 for standard technology training cohorts, they offer specialized programs specifically designed for military veterans and military spouses that feature flexible or expanded age criteria which bypass the standard young adult age cap.\n\nHours of Operation:\nMonday \u2013 Friday: 9:00 AM \u2013 5:00 PM",
+            "website": "https://npower.org",
+            "phone": "(973) 445-4400",
+            "email": "info.nj@npower.org",
+            "cost_label": "Free",
+            "nj_access": "Age: 18–26 (Veteran tracks vary)",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "catalyte-software-development",
+            "category": "Employment, Education & Career Development",
+            "name": "Catalyte",
+            "location": "Remote & Hybrid (Online)",
+            "description": "Catalyte provides free education and placement into software development roles. They offer in-person, remote, and hybrid courses.\n\nEligibility Note:\nCatalyte does not require previous technical experience, college degrees, or resume screening for entry. Instead, applicants take a series of cognitive, problem-solving, and capability assessments designed to measure an individual's natural capacity for software development and technical learning.\n\nHours of Operation:\nMonday \u2013 Friday: 9:00 AM \u2013 5:00 PM",
+            "website": "https://catalyte.io",
+            "phone": "(888) 748-3838",
+            "email": "",
+            "cost_label": "Free",
+            "nj_access": "Age: 18+",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "climb-hire-salesforce",
+            "category": "Employment, Education & Career Development",
+            "name": "Climb Hire",
+            "location": "Remote & Hybrid (Online)",
+            "description": "A community-based program focused on training individuals for Salesforce administration and operations roles. They offer in-person, remote, and hybrid courses.\n\nProgram Note:\nThis program utilizes income share agreements, which means students pay bash upfront for tuition and only begin repaying the cost of the program as a fixed percentage of their income after they secure a well-paying job in their new field.\n\nHours of Operation:\nMonday \u2013 Friday: 9:00 AM \u2013 5:00 PM",
+            "website": "https://climbhire.co",
+            "phone": "",
+            "email": "",
+            "cost_label": "Free (bash Upfront)",
+            "nj_access": "Age: Typically 18–24",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "coop-careers-fellowship",
+            "category": "Employment, Education & Career Development",
+            "name": "COOP Careers",
+            "location": "Greater NYC / Tri-State Commuting Area (accessible to Monmouth County)",
+            "description": "A community-driven digital fellowship focused on launching careers in digital marketing, data analytics, and financial services for first-generation or low-income college graduates. They offer hybrid courses (combining live evening remote sessions with required monthly in-person regional programming).\n\nEligibility Note:\nCandidates must live within a two-hour commuting distance of New York City and meet underemployment criteria (unemployed, working less than 35 hours a week, or earning under 0,000/year), making it fully accessible to eligible Monmouth County residents.\n\nHours of Operation:\nMonday \u2013 Wednesday: 6:30 PM \u2013 9:30 PM (Live Sessions)",
+            "website": "https://www.coopcareers.org",
+            "phone": "",
+            "email": "recruiting@coopcareers.org",
+            "cost_label": "Free",
+            "nj_access": "Age: 21+ (within 10 yrs of college graduation)",
+            "last_verified": str(datetime.date.today())
+        },
+        {
+            "id": "the-knowledge-house-tech",
+            "category": "Employment, Education & Career Development",
+            "name": "The Knowledge House",
+            "location": "Greater NYC / Tri-State Area",
+            "description": "A tech training and fellowship program providing comprehensive pathways in coding, software engineering, data science, web development, and user design. They offer hybrid and in-person courses.\n\nEligibility Note:\nWhile open to the broader tri-state area depending on specific fellowship grants (such as regional employer partnerships), applicants should verify local geographic and transit feasibility to physical hub locations, as some core tracks require regular in-person attendance.\n\nHours of Operation:\nMonday \u2013 Friday: 9:00 AM \u2013 5:00 PM",
+            "website": "https://www.theknowledgehouse.org",
+            "phone": "",
+            "email": "info@theknowledgehouse.org",
+            "cost_label": "Free",
+            "nj_access": "Age: Varies by track (Youth 16–21, Adult 18+)",
+            "last_verified": str(datetime.date.today())
+        },
+
+        # ==========================================
         # 3. FAMILY & SUPPORT SERVICES
         # ==========================================
         {
