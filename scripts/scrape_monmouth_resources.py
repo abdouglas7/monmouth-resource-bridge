@@ -1111,6 +1111,11 @@ def is_legitimate_resource(item):
 def update_resource_database():
     """Merges scraped records with foundational resources and writes clean JSON."""
     foundational = get_foundational_resources()
+    # Reviewed weekly-scout records take precedence over scraped and older foundation rows.
+    with open("data/approved_weekly_scout.json", "r", encoding="utf-8") as approved_file:
+        approved = json.load(approved_file)
+    reviewed_ids = {item["id"] for item in approved}
+    foundational = [item for item in foundational if item["id"] not in reviewed_ids] + approved
     scraped = scrape_workinmonmouth_pantries()
     
     # Merge strategy: foundational curated resources take precedence by ID and name
