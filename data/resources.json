@@ -2517,12 +2517,12 @@
     "category": "Employment, Education & Career Development",
     "name": "Monmouth County One-Stop Career Center (Workforce Development Board & Equus WIOA Grants)",
     "location": "170 State Route 35, Eatontown, NJ 07724",
-    "description": "Towns Served:\nServing all of Monmouth County\n\nAge Requirements:\nAdults & Young Adults Ages 18+\n\nService Focus:\nWIOA Tuition Grants, Equus Training Placement, NJDOL Services & Veterans Employment\n\nProgram Overview:\nComprehensive county workforce center combining the Monmouth County Workforce Development Board, the New Jersey Department of Labor (NJDOL), and Equus Workforce Solutions under one roof. Provides eligible unemployed and underemployed residents with federally funded WIOA career training grants (up to $4,000–$5,000 in tuition assistance) for approved certifications in healthcare, commercial driving (CDL), IT, and skilled trades. Features an on-site walk-in computer resource lab for job searches, resume printing, direct employer hiring events, and dedicated priority employment counseling for military veterans.\n\nHours:\nMonday – Friday: 8:30 AM – 4:30 PM  \nSaturday & Sunday: Closed",
-    "website": "https://visitmonmouth.com/page.aspx?ID=1642",
+    "description": "Towns Served:\nServing all of Monmouth County\n\nAge Requirements:\nAdults & Young Adults Ages 18+\n\nService Focus:\nWIOA Tuition Grants, Equus Training Placement, JobSource Services & Veterans Employment\n\nProgram Overview:\nComprehensive county workforce center combining the Monmouth County Division of Workforce Development / JobSource, the New Jersey Department of Labor (NJDOL), and Equus Workforce Solutions under one roof. Equus operates as the county’s contracted WIOA Title I provider, working directly with the Monmouth County Division of Workforce Development out of the Eatontown office to issue training tuition grants. Provides eligible unemployed and underemployed residents with federally funded WIOA career training grants (up to $4,000–$5,000 in tuition assistance) for approved credentials in healthcare, commercial driving (CDL), IT, and skilled trades. Features an on-site computer resource lab for job searches, resume printing, direct employer hiring events, and dedicated priority counseling for military veterans.\n\nOrientation & Follow-Up Steps:\nStep 1: Complete the online WIOA orientation request form directly at: https://workinmonmouth.com/orientation/\nStep 2: Check your inbox (and your Spam / Junk folder) for an email confirming your orientation request, which will provide your scheduled date and time.\nStep 3: If you do not see a confirmation email within 3 to 5 business days, call the One-Stop Career Center directly at (732) 683-8850 to follow up and ensure your orientation spot is confirmed.\n\nLocation:\n170 State Route 35, Eatontown, NJ 07724\n\nHours:\nMonday – Friday: 8:30 AM – 4:30 PM\nSaturday & Sunday: Closed\n\nDirect Contact:\nPhone: (732) 683-8850\nOrientation Portal: https://workinmonmouth.com/orientation/\nGeneral Website: https://workinmonmouth.com/",
+    "website": "https://workinmonmouth.com/orientation/",
     "phone": "(732) 683-8850",
     "email": "",
     "cost_label": "Free",
-    "nj_access": "Unemployed, Underemployed & Career-Changing Residents",
+    "nj_access": "Unemployed, Underemployed & Career-Changing Residents (Ages 18+)",
     "last_verified": "2026-11-16",
     "area": "Serving all of Monmouth County"
   },
@@ -3401,5 +3401,18 @@
     "website": "https://www.americorps.gov/serve",
     "description": "Service Focus:\nCommunity Service · Career Experience · Education Awards\n\nProgram Overview:\nSearch AmeriCorps opportunities by location and program. Some opportunities accept adults age 30 and older; eligibility, age limits, living allowances, benefits, and education awards vary by program and role. City Year age rules do not apply to every AmeriCorps opportunity. NCCC member and team-leader roles have different age requirements. Review the specific posting before applying.\n\nHours:\nOnline opportunity search available anytime; service schedules vary.",
     "id": "scout-americorps-service-opportunities-for-adults"
+  },
+  {
+    "id": "wcec-nj",
+    "name": "Women’s Center for Entrepreneurship (WCEC)",
+    "category": "Employment, Education & Career Development",
+    "cost_label": "Free (General counseling, orientation, and educational webinars) · Paid (Select multi-week certificate cohorts & intensive bootcamps)",
+    "nj_access": "Women, minority, and all aspiring entrepreneurs and small business owners",
+    "area": "Serving all of Monmouth County",
+    "location": "227 Main Street, 2nd Floor, Chatham, NJ 07928 (In-person by appointment & virtual services across Monmouth County)",
+    "phone": "(973) 507-9700",
+    "email": "info@wcecnj.org",
+    "website": "https://www.wcecnj.org/",
+    "description": "Towns Served:\nServing all of Monmouth County\n\nService Focus:\nSmall Business Counseling, Business Plan Coaching, Microenterprise Assistance, Financial Literacy & Entrepreneurial Training\n\nProgram Overview:\nSBA-designated Women’s Business Center (501(c)(3) nonprofit) providing one-on-one business counseling, business plan coaching, financial education, and training for aspiring entrepreneurs and established small business owners across Monmouth County. Offers free educational webinars, startup mentoring, MWBE certification guidance, and community lender/microloan preparation. While their central office is located in Chatham, WCEC is a designated regional provider serving Monmouth County residents through phone, virtual/video appointments, and county partner workshops.\n\nLocation:\n227 Main Street, 2nd Floor, Chatham, NJ 07928 (In-person by appointment & virtual services across Monmouth County)\n\nHours:\nMonday – Friday: 9:00 AM – 5:00 PM (Counseling by appointment)\nSaturday & Sunday: Closed\n\nDirect Contact:\nPhone: (973) 507-9700\nEmail: info@wcecnj.org\nWebsite: https://www.wcecnj.org/"
   }
 ]
