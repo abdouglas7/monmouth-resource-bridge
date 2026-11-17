@@ -679,14 +679,14 @@
   {
     "name": "AmeriCorps — Service Opportunities for Adults",
     "category": "Employment & Training",
-    "cost_label": "Program-dependent living allowance and education award",
-    "nj_access": "Eligibility and age requirements vary by program and role",
-    "area": "Monmouth County and New Jersey opportunities",
-    "location": "Online opportunity search; placements vary",
+    "cost_label": "Paid service terms; program-dependent living allowances and Segal Education Awards upon completion",
+    "nj_access": "Eligibility, age rules, and benefits vary by program and role",
+    "area": "Monmouth County, New Jersey, and regional opportunities",
+    "location": "Online opportunity search; placements vary throughout NJ and regionally",
     "phone": "",
     "email": "",
     "website": "https://www.americorps.gov/serve",
-    "description": "Service Focus:\nCommunity Service · Career Experience · Education Awards\n\nProgram Overview:\nSearch AmeriCorps opportunities by location and program. Some opportunities accept adults age 30 and older; eligibility, age limits, living allowances, benefits, and education awards vary by program and role. City Year age rules do not apply to every AmeriCorps opportunity. NCCC member and team-leader roles have different age requirements. Review the specific posting before applying.\n\nHours:\nOnline opportunity search available anytime; service schedules vary.",
+    "description": "Service Focus:\nCommunity Service · National Service Fellowships · Workforce Apprenticeships\n\nProgram Overview:\nSearch AmeriCorps opportunities by location, issue area, and service commitment. Eligibility, age rules, living allowances, health benefits, and education awards vary by specific track. Many opportunities accept adults age 30 and older. Review the specific posting before applying.\n\nFeatured Example — NJDEP Watershed Ambassadors Program:\nFocus: Water quality monitoring, stream assessments, and school/community environmental education across New Jersey.\nCompensation: Listed living allowance up to $25,000 (confirm payment schedule with program staff) plus Segal Education Award up to $7,395 for the advertised 2026–2027 cycle.\nEligibility: Bachelor’s degree or higher, valid driver's license, and dependable vehicle.\nStatus: 2026–2027 applications are closed. Confirm future recruitment dates with program staff.\nWebsite: https://dep.nj.gov/wms/bears/americorps-nj-watershed-ambassadors/\nDirect Contact: Michelle.Hatfield@dep.nj.gov | (609) 940-5568\n\nFeatured Example — Public Allies Delaware:\nFocus: 10-month leadership and non-profit workforce apprenticeship operated in partnership with the University of Delaware Center for Community Research and Service (CCRS).\nEligibility: Minimum age 17; high school diploma or GED required; no college degree required. Requires meeting in-person placement attendance at Delaware host sites. Required background screenings apply; contact the program regarding individual eligibility.\nStatus: Check the program website or contact the office for upcoming cohort recruitment dates.\nWebsite: https://publicallies.org/delaware/\nDirect Contact: (302) 573-4438 | delawareoffice@publicallies.org\n\nHours:\nOnline search available anytime; individual program service schedules vary.\n\nLast Reviewed:\nNovember 17, 2026",
     "id": "scout-americorps-service-opportunities-for-adults"
   },
   {
@@ -1024,5 +1024,57 @@
     "email": "info@martysplace.org",
     "website": "https://martysplace.org/senior-pet-assistance-program/",
     "description": "Access Requirements:\nSenior citizens on limited fixed incomes who own dogs aged seven (7) and older.\n\nService Area:\nMonmouth, Mercer, Middlesex, and northern Ocean counties\n\nServices Provided:\nFinancial assistance toward veterinary wellness care, diagnostic testing, and core vaccines for senior dogs\nSubsidized food and essential maintenance medications for qualifying senior pets\nMedical grooming, dental care, and specialty care considered on an individual basis\nProgram aims to keep senior dogs in loving homes with their senior pet parents"
+  },
+  {
+    "id": "scout-kyds-konscious-youth-development-service",
+    "name": "KYDS — Konscious Youth Development & Service",
+    "category": "Family & Support Services",
+    "cost_label": "Contact KYDS for program-specific fees and availability",
+    "nj_access": "Youth, schools, educators, and families",
+    "area": "Asbury Park and surrounding Monmouth County communities",
+    "location": "Asbury Park, NJ (Mailing: PO Box 759, Asbury Park, NJ 07712 — mailing address only, not a walk-in facility)",
+    "phone": "",
+    "email": "info@konscious.org",
+    "website": "https://www.konscious.org/",
+    "description": "Program Details:\n501(c)(3) nonprofit providing holistic wellness, mindfulness, and social-emotional learning tools for youth, schools, educators, and families. Published offerings include youth mentoring, educator workshops, and a summer Junior Konscious Workers hiring program for high-school and college students.\n\nProgram Availability:\nContact KYDS directly for current programming schedules, eligibility guidelines, fees, and upcoming summer youth internship openings.\n\nLast Reviewed:\nNovember 17, 2026"
+  },
+  {
+    "id": "scout-smart-local-27-sheet-metal-apprenticeship",
+    "name": "Sheet Metal Workers Local 27 JATC — Apprenticeship Training",
+    "category": "Employment & Training",
+    "cost_label": "Paid apprenticeship; confirm tuition, fees, tools, and participant expenses with the training office",
+    "nj_access": "Residents of nine eligible NJ counties, including Monmouth, with 12 months residency prior to application",
+    "area": "Monmouth, Ocean, Atlantic, Burlington, Cape May, Cumberland, Hunterdon, Mercer, or Middlesex County",
+    "location": "322 Squankum-Yellowbrook Rd, Farmingdale, NJ 07727",
+    "phone": "(732) 919-1999 ext. 19",
+    "email": "",
+    "website": "https://www.smwlu27.org/recruitment-resources/apprenticeship-recruitment",
+    "description": "Type:\nUnion trade apprenticeship (HVAC ductwork, architectural sheet metal, welding)\n\nProgram Details & Compensation:\nRegistered union apprenticeship combining classroom instruction with paid on-the-job training. The posted 2026 starting apprentice wage was $24.91 per hour plus a fringe-benefit package. Future wage rates and benefit terms require confirmation. Requires high school diploma or GED, valid driver's license, residency proof, and passing physical/drug screenings upon offer.\n\nAge Requirement:\nThe posted 2026 recruitment required applicants to be at least 18 by September 1, 2026. Confirm the age cutoff for future recruitment.\n\nIntake Status:\nThe posted March 23–April 2, 2026 application window has ended. No subsequent recruitment schedule has been verified.\n\nLast Reviewed:\nNovember 17, 2026"
+  },
+  {
+    "id": "scout-eas-carpenters-carp-apprenticeship",
+    "name": "Eastern Atlantic States Carpenters — CARP Pre-Apprenticeship & Apprenticeship",
+    "category": "Employment & Training",
+    "cost_label": "Confirm current training costs, fees, and participant expenses with program staff",
+    "nj_access": "New Jersey residents age 18+ with diploma or GED",
+    "area": "New Jersey statewide",
+    "location": "New Jersey (Edison Training Center serves central NJ / Monmouth County)",
+    "phone": "",
+    "email": "",
+    "website": "https://www.eascarpenterstech.edu/new-jersey/carp-application/",
+    "description": "Type:\nUnion carpentry pre-apprenticeship and apprenticeship pathways\n\nCARP Pre-Apprenticeship:\nA registered NJ Department of Labor pre-apprenticeship teaching construction math, shop skills, safety, and interview prep. Requires age 18+, diploma or GED, valid driver's license, NJ residency, drug screening, and full attendance. Contact CARP to confirm next cohort dates, location, costs, and application instructions.\nCARP Website: https://www.eascarpenterstech.edu/new-jersey/carp-application/\n\nEAS Apprenticeship (Edison Center):\nThe 4-year registered union apprenticeship. The intake sequence involves attending a virtual information session, submitting documents, an interview, and math/skills assessments.\nEdison Apprenticeship Website: https://www.eascarpenterstech.edu/edison/apply/\n\nApplication Status:\nThe Edison apprenticeship page currently directs applicants to a waitlist for future virtual information sessions. Joining the waitlist does not establish an available apprenticeship slot.\n\nLast Reviewed:\nNovember 17, 2026"
+  },
+  {
+    "id": "scout-nj-saip-dollar-a-day-auto-insurance",
+    "name": "New Jersey Special Automobile Insurance Policy (SAIP) — “Dollar-a-Day” Auto Insurance",
+    "category": "Basic Needs & Assistance",
+    "cost_label": "$360 annually paid upfront, or $365 annually in two installments",
+    "nj_access": "Drivers currently enrolled in federal Medicaid with hospitalization",
+    "area": "New Jersey, including Monmouth County",
+    "location": "Available through participating insurance agencies throughout New Jersey",
+    "phone": "PAIP customer service: 1-800-652-2471",
+    "email": "",
+    "website": "https://www.nj.gov/dobi/division_consumers/insurance/saip.htm",
+    "description": "Type:\nLimited, medical-coverage-only automobile insurance\n\nProgram Details & Eligibility:\nState-authorized, limited medical-only auto insurance for eligible drivers. Applicants must currently be enrolled in federal Medicaid with hospitalization. Not all Medicaid or NJ FamilyCare coverage categories qualify; an insurance producer determines eligibility using your Medicaid identification information.\nProvides emergency medical treatment immediately following an automobile accident and treatment of serious brain and spinal cord injuries up to $250,000, plus a $10,000 death benefit.\nApplicants cannot obtain a policy if their driver’s license or vehicle registration is suspended or revoked. One vehicle may be insured per policy.\n\nImportant Coverage Limitations:\nDoes not provide liability coverage for injuries or property damage caused to other people, collision or comprehensive damage to your own vehicle, or routine outpatient treatment covered by Medicaid. This is not equivalent to a standard auto policy. Confirm vehicle registration and individual insurance requirements with the producer.\n\nHow to Apply:\nContact a participating insurance agency or call PAIP at 1-800-652-2471 to find a producer. Bring driver’s licenses for all operators of the vehicle to be insured, the vehicle registration, and Medicaid identification cards for everyone seeking coverage. The producer will determine whether their Medicaid enrollment qualifies.\n\nLast Reviewed:\nNovember 17, 2026"
   }
 ]
