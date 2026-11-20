@@ -4158,5 +4158,19 @@
     "phone": "",
     "email": "",
     "active": true
+  },
+  {
+    "id": "scout-findhelp-new-jersey",
+    "name": "Findhelp — Community Resource Search (New Jersey)",
+    "category": "New Jersey & Local Community Resources",
+    "location": "Online / Digital Platform",
+    "area": "Monmouth County and New Jersey; search by ZIP code",
+    "cost_label": "Free search platform (individual program costs and eligibility vary)",
+    "nj_access": "Open to people seeking community assistance; each provider sets its own eligibility and intake requirements.",
+    "website": "https://helpnewjersey.findhelp.com/",
+    "phone": "",
+    "email": "",
+    "active": true,
+    "description": "Service Area:\nMonmouth County and New Jersey; search by ZIP code.\n\nService Focus:\nCommunity Resource Search · Food · Housing · Health Care · Financial Assistance\n\nProgram Overview:\nAn online search platform for finding community assistance programs. Enter a ZIP code to look for resources serving your area. This platform is a directory, not a direct provider of emergency shelter, benefits, or financial assistance.\n\nCost:\nFree search platform; individual program costs and eligibility vary.\n\nContact & Access:\nWebsite: https://helpnewjersey.findhelp.com/\nContact the organization offering a program to confirm its current service area, hours, eligibility, intake requirements, and availability before visiting or applying.\n\nHours:\nOnline platform; individual service provider hours vary."
   }
 ]
