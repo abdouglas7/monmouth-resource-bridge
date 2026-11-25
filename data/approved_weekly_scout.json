@@ -1784,5 +1784,31 @@
     "description": "Category: Health, Recreation & Wellness\n\nCost: Free tour admission and beverage sampling.\n\nEligibility / Access: Guests age 10 and older. Visitors younger than 18 must be accompanied by an adult. Advance registration is required.\n\nLocation: 1 AriZona Way, Keasbey, NJ 08832, in Woodbridge Township.\n\nWebsite / Reservations: https://drinkarizona.com/pages/arizonaland\n\nAccessibility / Tour Questions: arizonalandtours@drinkarizona.com\n\nTowns Served: Open to eligible visitors, including Monmouth County residents. The facility is outside Monmouth County.\n\nService Focus: Factory Tour · Manufacturing Education · Beverage Sampling · Company History · Recreation\n\nProgram Overview:\n\nAriZonaLand offers a guided visit to AriZona Beverages’ production facility and museum.\n\nThe experience includes:\n\n• A guided look at beverage production and packaging.\n• Company-history exhibits.\n• Beverage sampling, which may include test flavors.\n\nAllow approximately 45–60 minutes for the tour.\n\nHow to Visit:\n\nReserve through the official website and review the current clothing, identification, safety, and arrival instructions before traveling.\n\nImportant Safety and Accessibility Requirements:\n\n• The tour involves substantial walking and at least one flight of stairs.\n• Contact the tour team before registering if accommodations are needed.\n• Service animals are welcome in the visitor center and designated gathering spaces but are not permitted in production areas.\n• Wear flat, closed-toe, closed-heel shoes; sandals, clogs, Crocs, and high heels are not allowed. Shirts must have sleeves; long hair must be tied back. Adults must bring government-issued photo ID matching the registration name.\n• Walk-in admission is not available.",
     "active": true,
     "last_reviewed": "2026-11-21"
+  },
+  {
+    "id": "scout-together-takemehome",
+    "name": "Together TakeMeHome — Free In-Home HIV & STI Self-Testing",
+    "category": "Healthcare & Medical Resources",
+    "cost_label": "Free",
+    "nj_access": "Ages 17 and older with a valid U.S. mailing address. Up to two free test kits every 90 days.",
+    "location": "Online / Digital Platform",
+    "area": "Monmouth County",
+    "website": "https://takemehome.org",
+    "phone": "(628) 899-4662",
+    "email": "",
+    "description": "Category: Healthcare & Medical Resources\n\nCost: Free. No insurance or payment required.\n\nEligibility / Access: Ages 17 and older with a valid U.S. mailing address. Up to two free test kits every 90 days.\n\nLocation: Online order with discreet mail delivery.\n\nWebsite: https://takemehome.org\n\nSupport Phone: (628) 899-4662\n\nTowns Served: Serving all of Monmouth County by mail.\n\nService Focus: HIV Self-Testing · STI Self-Testing · Discreet Home Delivery\n\nProgram Overview:\n\nA public health initiative that mails free, confidential rapid HIV self-test kits (oral swab or fingerstick) in plain packaging. Results are ready at home in about 20 minutes. Follow-up support is available for anyone who needs confirmatory testing or care."
+  },
+  {
+    "id": "scout-chsnj-kinship-services",
+    "name": "Children's Home Society of New Jersey — Kinship Services",
+    "category": "Family & Support Services",
+    "cost_label": "Free",
+    "nj_access": "Serving all of Monmouth County. For grandparents and other relatives raising a family member's child.",
+    "location": "Phone intake / Serving all of Monmouth County",
+    "area": "Monmouth County",
+    "website": "https://chsofnj.org/services/kinship-services/",
+    "phone": "1-800-396-4518",
+    "email": "",
+    "description": "Category: Family & Support Services\n\nCost: Free\n\nEligibility / Access: Grandparents, aunts, uncles, adult siblings, and other relatives raising a family member's child.\n\nLocation: Phone intake and in-home support.\n\nWebsite: https://chsofnj.org/services/kinship-services/\n\nIntake Phone: 1-800-396-4518, or dial 2-1-1 and ask for the Kinship Navigator.\n\nTowns Served: Serving all of Monmouth County.\n\nService Focus: Kinship Navigator · Kinship Legal Guardianship Guidance · Caregiver Support Groups · Resource Referrals\n\nProgram Overview:\n\nNew Jersey's Kinship Navigator program helps relative caregivers understand custody and Kinship Legal Guardianship options, connect to child care and other benefits, and find peer support. Any financial help depends on eligibility and available funding."
   }
 ]
